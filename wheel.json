@@ -1,6 +1,7 @@
 {
   "nodes": [
     {
+      "ekman_basic": true, 
       "colour": "#ffffb1", 
       "terms": [
         "experience", 
@@ -317,6 +318,7 @@
       ]
     }, 
     {
+      "ekman_basic": true, 
       "colour": "#ff8c8c", 
       "terms": [
         "strong", 
@@ -575,6 +577,7 @@
       ]
     }, 
     {
+      "ekman_basic": true, 
       "colour": "#ffc6ff", 
       "terms": [
         "strong", 
@@ -622,6 +625,7 @@
       ]
     }, 
     {
+      "ekman_basic": true, 
       "colour": "#8cc68c", 
       "terms": [
         "experience", 
@@ -966,6 +970,7 @@
       ]
     }, 
     {
+      "ekman_basic": true, 
       "colour": "#8c8cff", 
       "terms": [
         "experience", 
@@ -1577,6 +1582,7 @@
       ]
     }, 
     {
+      "ekman_basic": true, 
       "colour": "#a5dbff", 
       "terms": [
         "accompanies", 

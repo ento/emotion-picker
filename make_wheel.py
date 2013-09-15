@@ -74,6 +74,7 @@ def make_wheel(*roots):
     for root, color in roots:
         node = make_node(root, memo)
         node['colour'] = color
+        node['ekman_basic'] = True
         nodes.append(node)
 
     node_docs = [node['terms'] for node in memo.nodes]

@@ -198,7 +198,7 @@ fw.filter.bool = Backbone.Model.extend({
     type: 'bool'
   },
   match: function(d) {
-    return d.name && d.name[0] == 'a';
+    return !!d[this.get('field')];
   },
 });
 
@@ -239,6 +239,9 @@ var FilterView = Backbone.View.extend({
 });
 
 function match(d) {
+  if (!Filters.length) {
+    return false;
+  }
   return Filters.every(function(each) {
     return each.match(d);
   });
@@ -247,7 +250,6 @@ function match(d) {
 function highlightMatches() {
   vis.selectAll("path").classed('match', function(d) {
     var matches = match(d);
-    console.log(d.name, matches);
     return matches;
   });
 }
