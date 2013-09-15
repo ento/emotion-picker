@@ -11,17 +11,28 @@
 </aside>
 <div id="vis">
 </div>
-<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/zepto/1.0/zepto.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.0.0/backbone-min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/backbone-localstorage.js/1.1.0/backbone.localStorage-min.js"></script>
-<script type="text/template" id="item-template">
+
+<script type="text/template" id="bool-template">
   <div class="view">
     <label><%- label %></label>
     <a class="destroy">&times;</a>
   </div>
 </script>
+
+<script type="text/template" id="keyword-template">
+  <div class="view">
+    <label><%- label %></label>
+    <a class="destroy">&times;</a><br>
+    <input name="value" value="<%- value %>">
+  </div>
+</script>
+
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/zepto/1.0/zepto.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.0.0/backbone-min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/backbone-localstorage.js/1.1.0/backbone.localStorage-min.js"></script>
+
 <script src="wheel.js"></script>
 <h2>Sunburst Trees</h2>
 <p>This is an example of using <a href="http://github.com/mbostock/d3/wiki/Partition-Layout">d3.layout.partition</a> to generate a zoomable sunburst tree derived from hierarchical data.  A <a href="http://www.cc.gatech.edu/gvu/ii/sunburst/">sunburst tree</a> is a radial space-filling visualisation, analagous to an icicle tree.

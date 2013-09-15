@@ -1,3 +1,4 @@
+/* init */
 var width = 760,
     height = width,
     radius = width / 2,
@@ -38,7 +39,9 @@ var arc = d3.svg.arc()
     .innerRadius(function(d) { return Math.max(0, d.y ? y(d.y) : d.y); })
     .outerRadius(function(d) { return Math.max(0, y(d.y + d.dy)); });
 
-d3.json("wheel.json", function(error, json) {
+/* build visualization */
+
+d3.json("wheel_ja.json", function(error, json) {
   var nodes = partition.nodes({children: json.nodes}),
     terms = aggregateTerms(json.terms);
 
@@ -93,6 +96,9 @@ d3.json("wheel.json", function(error, json) {
       })
       .attr("dy", ".5em")
       .text(function(d) { return d.term; })
+      .on('click', function(d) {
+        createFilter({type: 'keyword', value: d.term});
+      })
       .call(updateTerm);
 
   function updateTerm(selection) {
@@ -167,6 +173,8 @@ d3.json("wheel.json", function(error, json) {
   Filters.fetch();
 });
 
+/* filters */
+
 function initFilterFields(fields) {
   var div = d3.select('#filters');
   div.append('button').html('add').on('click', function(e) {
@@ -183,12 +191,24 @@ function initFilterFields(fields) {
     .attr('id', 'filter-list');
 }
 
-var fields = [{type: 'bool', name: 'ekman_basic', label: "Ekman's basic emotions"}];
+function createFilter(field) {
+  Filters.create({type: field.type, value: field.value, label: field.label});
+}
+
+var fields = [
+  {
+    type: 'bool',
+    label: "Ekman's basic emotions",
+    value: 'ekman_basic'
+  },
+  {
+    type: 'keyword',
+    label: 'Keyword'
+  }  
+];
 initFilterFields(fields);
 
-function createFilter(field) {
-  Filters.create({type: field.type, field: field.name, label: field.label});
-}
+/* filter models */
 
 var fw = {};
 fw.filter = {};
@@ -198,7 +218,18 @@ fw.filter.bool = Backbone.Model.extend({
     type: 'bool'
   },
   match: function(d) {
-    return !!d[this.get('field')];
+    return !!d[this.get('value')];
+  },
+});
+
+fw.filter.keyword = Backbone.Model.extend({
+  defaults: {
+    type: 'keyword',
+    label: 'Keyword'
+  },
+  match: function(d) {
+    if (!d.terms) return;
+    return d.terms.indexOf(this.get('value')) !== -1;
   },
 });
 
@@ -222,9 +253,14 @@ Filters.on('reset', function() {
 });
 Filters.on('all', highlightMatches);
 
+/* filter view */
+
 var FilterView = Backbone.View.extend({
   tagName: "li",
-  template: _.template(d3.select('#item-template').html()),
+  templates: {
+    bool: _.template(d3.select('#bool-template').html()),
+    keyword: _.template(d3.select('#keyword-template').html())
+  },
   events: {
     'change input': 'updateFilter',
     'click a.destroy' : 'clear',
@@ -234,13 +270,15 @@ var FilterView = Backbone.View.extend({
     this.listenTo(this.model, 'destroy', this.remove);
   },
   render: function() {
-    this.$el.html(this.template(this.model.toJSON()));
+    this.$el.html(this.templates[this.model.get('type')](this.model.toJSON()));
+    this.input = this.$('input');
     return this;
   },
   clear: function() {
     this.model.destroy();
   },
   updateFilter: function() {
+    this.model.save({value: this.input.val()})
     highlightMatches();
   }
 });
@@ -260,6 +298,8 @@ function highlightMatches() {
     return matches;
   });
 }
+
+/* terms */
 
 function tfidfDescending(a, b) {
   return a.tfidf > b.tfidf;
@@ -287,6 +327,8 @@ function aggregateTerms(terms) {
   termList.sort(tfidfDescending);
   return {nodeTerms: nodeTerms, termNodes: termNodes, termList: termList};
 }
+
+/* node helpers */
 
 function isParentOf(p, c) {
   if (p === c) return true;
