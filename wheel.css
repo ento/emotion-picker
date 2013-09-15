@@ -38,3 +38,7 @@ p#intro {
 h2 {
   clear: right;
 }
+
+.destroy {
+  cursor: pointer;
+}

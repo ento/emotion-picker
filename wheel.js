@@ -216,22 +216,29 @@ function viewOneFilter(model) {
 }
 Filters.on('add', function(model) {
   viewOneFilter(model);
-  highlightMatches();
 });
 Filters.on('reset', function() {
   Filters.each(viewOneFilter);
-  highlightMatches();
 });
+Filters.on('all', highlightMatches);
 
 var FilterView = Backbone.View.extend({
   tagName: "li",
   template: _.template(d3.select('#item-template').html()),
   events: {
-    'change input': 'updateFilter'
+    'change input': 'updateFilter',
+    'click a.destroy' : 'clear',
+  },
+  initialize: function() {
+    this.listenTo(this.model, 'change', this.render);
+    this.listenTo(this.model, 'destroy', this.remove);
   },
   render: function() {
     this.$el.html(this.template(this.model.toJSON()));
     return this;
+  },
+  clear: function() {
+    this.model.destroy();
   },
   updateFilter: function() {
     highlightMatches();
