@@ -27,7 +27,7 @@ var rels = aside.append("svg")
 
 div.append("p")
     .attr("id", "intro")
-    .text("Click to zoom!");
+    .text("Click to select, click again to zoom!");
 
 var partition = d3.layout.partition()
     .sort(null)
@@ -51,9 +51,7 @@ d3.json(datapath, function(error, json) {
   var nodes = partition.nodes({children: json.nodes}),
     terms = aggregateTerms(json.terms);
 
-//  termY.domain([0, terms.termList.length]).range([0, terms.termList.length * 20]);
-  termY.rangeBands([0, terms.termList.length * 20]);
-  termY.domain(_.pluck(terms.termList, 'term'));
+  /* wheel */
 
   var path = vis.selectAll("path").data(nodes);
   path.enter().append("path")
@@ -88,6 +86,11 @@ d3.json(datapath, function(error, json) {
       .attr("dy", "1em")
       .text(function(d) { return d.depth ? d.name.split(" ")[1] || "" : ""; });
 
+  /* term list */
+
+  termY.rangeBands([0, terms.termList.length * 20]);
+  termY.domain(_.pluck(terms.termList, 'term'));
+
   var termCount = terms.termList.length;
   var tfidfColor = d3.scale.linear()
     .domain([terms.termList[0].tfidf, terms.termList[termCount - 1]])
@@ -115,6 +118,8 @@ d3.json(datapath, function(error, json) {
       .attr("y", function(d) { return termY(d.term); })
   }
 
+  /* select and zoom */
+
   var selected = null;
 
   function select(target, d) {
@@ -123,6 +128,9 @@ d3.json(datapath, function(error, json) {
       deselect(target, selected);
     }
     selected = d;
+    vis.selectAll('text, path').classed('selected', function(each) {
+      return each === d;
+    });
     var termTfidfs = terms.nodeTerms[d.name]
     var sortedTerms = _.chain(terms.termList)
       .map(function(each) {
@@ -138,6 +146,7 @@ d3.json(datapath, function(error, json) {
 
   function deselect(target, d) {
     selected = null;
+    vis.selectAll('text, path').classed('selected', false);
   }
 
   function click(d) {
@@ -184,7 +193,8 @@ d3.json(datapath, function(error, json) {
 function initFilterFields(fields) {
   var div = d3.select('#filters');
   div.append('button').html('add').on('click', function(e) {
-    createFilter(fields[parseInt(d3.select('#filter-type').node().selectedOptions[0].value)])
+    var index = parseInt(d3.select('#filter-type').node().selectedOptions[0].value);
+    createFilter(fields[index]);
   });
   div.append('select')
     .attr('id', 'filter-type')
@@ -198,7 +208,7 @@ function initFilterFields(fields) {
 }
 
 function createFilter(field) {
-  Filters.create({type: field.type, value: field.value, label: field.label});
+  Filters.create(field);
 }
 
 var fields = [

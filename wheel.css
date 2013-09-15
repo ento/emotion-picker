@@ -1,17 +1,3 @@
-path {
-  stroke: #000;
-  stroke-width: 1.5;
-  cursor: pointer;
-}
-path.match {
-  fill: #fc0 !important;
-}
-
-text {
-  font: 11px sans-serif;
-  cursor: pointer;
-}
-
 body {
   width: 980px;
   margin: 0 auto;
@@ -22,9 +8,45 @@ h1 {
   margin: .5em 0;
 }
 
+h2 {
+  clear: right;
+}
+
+#search h2 {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+path {
+  stroke: #000;
+  stroke-width: 1.5;
+  cursor: pointer;
+}
+path.match {
+  fill: #fc0 !important;
+}
+
+text {
+  font: 12px sans-serif;
+  cursor: pointer;
+}
+
+text:hover {
+  fill: #c00 !important;
+}
+
+text.selected {
+  fill: #c00 !important;
+}
+
 p#intro {
   text-align: center;
   margin: 1em 0;
+}
+
+#search .help {
+  font-size: 11px;
+  color: #999;
 }
 
 #search {
@@ -35,10 +57,29 @@ p#intro {
   font: 16px sans-serif;
 }
 
-h2 {
-  clear: right;
-}
-
 .destroy {
   cursor: pointer;
+}
+
+#main-tech {
+  text-align: center;
+}
+
+.tech .label {
+  background-color: #cfc;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 14px;
+  color: #050;
+  padding: 1px 4px 2px;
+  vertical-align: baseline;
+  white-space: nowrap;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.1);
+}
+
+#alt-versions {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
