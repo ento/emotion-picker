@@ -220,7 +220,21 @@ var fields = [
   {
     type: 'keyword',
     label: 'Keyword'
-  }  
+  },
+  {
+    type: 'range',
+    label: 'Starts w/: a-z',
+    key: 0,
+    range_start: "a".charCodeAt(),
+    range_end: "z".charCodeAt()
+  },
+  {
+    type: 'range',
+    label: 'Ends w/: a-z',
+    key: -1,
+    range_start: "a".charCodeAt(),
+    range_end: "z".charCodeAt()
+  }
 ];
 initFilterFields(fields);
 
@@ -236,6 +250,9 @@ fw.filter.bool = Backbone.Model.extend({
   match: function(d) {
     return !!d[this.get('value')];
   },
+  score: function(d) {
+    return this.match(d) ? 1 : 0;
+  }
 });
 
 fw.filter.keyword = Backbone.Model.extend({
@@ -247,7 +264,37 @@ fw.filter.keyword = Backbone.Model.extend({
     if (!d.terms) return;
     return d.terms.indexOf(this.get('value')) !== -1;
   },
+  score: function(d) {
+    return this.match(d) ? 1 : 0;
+  }
 });
+
+fw.filter.range = Backbone.Model.extend({
+  defaults: {
+    type: 'range',
+    label: 'Range',
+    value: ''
+  },
+  match: function(d) {
+    if (!d.name) return 0;
+    var index = this.get('key') || 0;
+    if (index === -1) {
+      index = d.name.length - 1;
+    }
+    return d.name[index].charCodeAt() == this.get('value');
+  },
+  score: function(d) {
+    if (!d.name) return 0;
+    var index = this.get('key') || 0;
+    if (index === -1) {
+      index = d.name.length - 1;
+    }
+    var range_size = Math.abs(this.get('range_start') - this.get('range_end')) + 1;
+    var distance = Math.abs(d.name[index].charCodeAt() - this.get('value')) / range_size;
+    return 1 - distance;
+  }
+});
+
 
 var FilterCollection = Backbone.Collection.extend({
   localStorage: new Backbone.LocalStorage("feelings-wheel"),
@@ -267,7 +314,7 @@ Filters.on('add', function(model) {
 Filters.on('reset', function() {
   Filters.each(viewOneFilter);
 });
-Filters.on('all', highlightMatches);
+Filters.on('all', highlightScores);
 
 /* filter view */
 
@@ -275,14 +322,15 @@ var FilterView = Backbone.View.extend({
   tagName: "li",
   templates: {
     bool: _.template(d3.select('#bool-template').html()),
-    keyword: _.template(d3.select('#keyword-template').html())
+    keyword: _.template(d3.select('#keyword-template').html()),
+    range: _.template(d3.select('#range-template').html())
   },
   events: {
     'change input': 'updateFilter',
     'click a.destroy' : 'clear',
   },
   initialize: function() {
-    this.listenTo(this.model, 'change', this.render);
+//    this.listenTo(this.model, 'change', this.render);
     this.listenTo(this.model, 'destroy', this.remove);
   },
   render: function() {
@@ -293,10 +341,10 @@ var FilterView = Backbone.View.extend({
   clear: function() {
     this.model.destroy();
   },
-  updateFilter: function() {
-    this.model.save({value: this.input.val()})
-    highlightMatches();
-  }
+  updateFilter: _.throttle(function() {
+      this.model.save({value: this.input.val()})
+      highlightScores();
+    }, 200)
 });
 
 function match(d) {
@@ -308,10 +356,35 @@ function match(d) {
   });
 }
 
+function score(d) {
+  if (!Filters.length) {
+    return null;
+  }
+  return Filters.reduce(function(memo, each) {
+    return each.score(d) + memo;
+  }, 0) / Filters.length;
+}
+
 function highlightMatches() {
   vis.selectAll("path").classed('match', function(d) {
     var matches = match(d);
     return matches;
+  });
+}
+
+function highlightScores() {
+  vis.selectAll("path, text").each(function(d) {
+    var s = score(d),
+      path = d3.select(this);
+    if (s === null) {
+      path
+        .classed("match", false)
+        .attr('opacity', 1);
+    } else {
+      path
+        .classed("match", s !== 0)
+        .attr('opacity', Math.min(1, s + 0.1));
+    }
   });
 }
 
