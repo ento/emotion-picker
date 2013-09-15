@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Feelings Wheel</title>
+<meta name="description" content="A visualisation of humanly possible feelings.">
+<link rel="stylesheet" href="wheel.css">
+
+<h1>Feelings Wheel</h1>
+<aside id="search">
+  <section id="filters"></section>
+  <section id="related"></section>
+</aside>
+<div id="vis">
+</div>
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/zepto/1.0/zepto.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.0.0/backbone-min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/backbone-localstorage.js/1.1.0/backbone.localStorage-min.js"></script>
+<script type="text/template" id="item-template">
+  <div class="view">
+    <label><%- label %></label>
+    <a class="destroy"></a>
+  </div>
+</script>
+<script src="wheel.js"></script>
+<h2>Sunburst Trees</h2>
+<p>This is an example of using <a href="http://github.com/mbostock/d3/wiki/Partition-Layout">d3.layout.partition</a> to generate a zoomable sunburst tree derived from hierarchical data.  A <a href="http://www.cc.gatech.edu/gvu/ii/sunburst/">sunburst tree</a> is a radial space-filling visualisation, analagous to an icicle tree.
+<h2>Credits</h2>
+<p>Built with <a href="http://d3js.org">D3.js</a>.
+  Based on <a href="http://www.jasondavies.com/coffee-wheel/">Coffee Flavour Wheel</a>.

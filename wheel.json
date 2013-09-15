@@ -1,0 +1,6187 @@
+{
+  "nodes": [
+    {
+      "colour": "#ffffb1", 
+      "terms": [
+        "experience", 
+        "well-being", 
+        "great", 
+        "happiness", 
+        "happiness", 
+        "felt", 
+        "secure", 
+        "relationship", 
+        "intimate", 
+        "belong", 
+        "affectionate", 
+        "closeness", 
+        "ease", 
+        "relationship", 
+        "French", 
+        "happiness", 
+        "good", 
+        "humor", 
+        "experience", 
+        "joy", 
+        "pleasure", 
+        "happiness", 
+        "situation", 
+        "life", 
+        "contentment", 
+        "feel", 
+        "fulfil", 
+        "desire", 
+        "need", 
+        "expectation", 
+        "malicious", 
+        "satisfaction", 
+        "satisfaction", 
+        "achieve", 
+        "desire", 
+        "satisfaction", 
+        "achievement", 
+        "pride", 
+        "city", 
+        "satisfy", 
+        "excessive", 
+        "self-satisfaction", 
+        "gay", 
+        "feel", 
+        "facetious", 
+        "merriment", 
+        "feel", 
+        "jolly", 
+        "jovial", 
+        "full", 
+        "good", 
+        "humor", 
+        "great", 
+        "merriment", 
+        "spontaneous", 
+        "good", 
+        "spirit", 
+        "cheerfulness", 
+        "bubble", 
+        "surface", 
+        "cheerful", 
+        "nothing", 
+        "trouble"
+      ], 
+      "name": "happiness", 
+      "children": [
+        {
+          "terms": [
+            "great", 
+            "happiness"
+          ], 
+          "name": "rejoicing"
+        }, 
+        {
+          "terms": [
+            "happiness", 
+            "felt", 
+            "secure", 
+            "relationship", 
+            "intimate", 
+            "belong", 
+            "affectionate", 
+            "closeness", 
+            "ease", 
+            "relationship"
+          ], 
+          "name": "belonging", 
+          "children": [
+            {
+              "terms": [
+                "intimate", 
+                "belong", 
+                "affectionate", 
+                "closeness"
+              ], 
+              "name": "closeness", 
+              "children": [
+                {
+                  "terms": [
+                    "affectionate", 
+                    "closeness"
+                  ], 
+                  "name": "togetherness"
+                }
+              ]
+            }, 
+            {
+              "terms": [
+                "ease", 
+                "relationship"
+              ], 
+              "name": "comfortableness"
+            }
+          ]
+        }, 
+        {
+          "terms": [
+            "French", 
+            "happiness", 
+            "good", 
+            "humor"
+          ], 
+          "name": "bonheur"
+        }, 
+        {
+          "terms": [
+            "experience", 
+            "joy", 
+            "pleasure"
+          ], 
+          "name": "gladness"
+        }, 
+        {
+          "terms": [
+            "happiness", 
+            "situation", 
+            "life", 
+            "contentment", 
+            "feel", 
+            "fulfil", 
+            "desire", 
+            "need", 
+            "expectation", 
+            "malicious", 
+            "satisfaction", 
+            "satisfaction", 
+            "achieve", 
+            "desire", 
+            "satisfaction", 
+            "achievement", 
+            "pride", 
+            "city", 
+            "satisfy", 
+            "excessive", 
+            "self-satisfaction"
+          ], 
+          "name": "contentment", 
+          "children": [
+            {
+              "terms": [
+                "contentment", 
+                "feel", 
+                "fulfil", 
+                "desire", 
+                "need", 
+                "expectation", 
+                "malicious", 
+                "satisfaction", 
+                "satisfaction", 
+                "achieve", 
+                "desire", 
+                "satisfaction", 
+                "achievement", 
+                "pride", 
+                "city", 
+                "satisfy", 
+                "excessive", 
+                "self-satisfaction"
+              ], 
+              "name": "satisfaction", 
+              "children": [
+                {
+                  "terms": [
+                    "malicious", 
+                    "satisfaction"
+                  ], 
+                  "name": "gloat"
+                }, 
+                {
+                  "terms": [
+                    "satisfaction", 
+                    "achieve", 
+                    "desire"
+                  ], 
+                  "name": "fulfillment"
+                }, 
+                {
+                  "terms": [
+                    "satisfaction", 
+                    "achievement", 
+                    "pride", 
+                    "city"
+                  ], 
+                  "name": "pride", 
+                  "children": [
+                    {
+                      "terms": [
+                        "pride", 
+                        "city"
+                      ], 
+                      "name": "civic_pride"
+                    }
+                  ]
+                }, 
+                {
+                  "terms": [
+                    "satisfy", 
+                    "excessive", 
+                    "self-satisfaction"
+                  ], 
+                  "name": "complacency", 
+                  "children": [
+                    {
+                      "terms": [
+                        "excessive", 
+                        "self-satisfaction"
+                      ], 
+                      "name": "smugness"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }, 
+        {
+          "terms": [
+            "gay", 
+            "feel", 
+            "facetious", 
+            "merriment", 
+            "feel", 
+            "jolly", 
+            "jovial", 
+            "full", 
+            "good", 
+            "humor", 
+            "great", 
+            "merriment"
+          ], 
+          "name": "gaiety", 
+          "children": [
+            {
+              "terms": [
+                "facetious", 
+                "merriment"
+              ], 
+              "name": "jocundity"
+            }, 
+            {
+              "terms": [
+                "feel", 
+                "jolly", 
+                "jovial", 
+                "full", 
+                "good", 
+                "humor"
+              ], 
+              "name": "jollity"
+            }, 
+            {
+              "terms": [
+                "great", 
+                "merriment"
+              ], 
+              "name": "hilarity"
+            }
+          ]
+        }, 
+        {
+          "terms": [
+            "spontaneous", 
+            "good", 
+            "spirit", 
+            "cheerfulness", 
+            "bubble", 
+            "surface", 
+            "cheerful", 
+            "nothing", 
+            "trouble"
+          ], 
+          "name": "cheerfulness", 
+          "children": [
+            {
+              "terms": [
+                "cheerfulness", 
+                "bubble", 
+                "surface"
+              ], 
+              "name": "buoyancy"
+            }, 
+            {
+              "terms": [
+                "cheerful", 
+                "nothing", 
+                "trouble"
+              ], 
+              "name": "carefreeness"
+            }
+          ]
+        }
+      ]
+    }, 
+    {
+      "colour": "#ff8c8c", 
+      "terms": [
+        "strong", 
+        "orient", 
+        "real", 
+        "suppose", 
+        "grievance", 
+        "passing", 
+        "anger", 
+        "resentment", 
+        "persisting", 
+        "angry", 
+        "mood", 
+        "resentful", 
+        "anger", 
+        "display", 
+        "bad", 
+        "temper", 
+        "intense", 
+        "anger", 
+        "righteous", 
+        "anger", 
+        "intense", 
+        "indignation", 
+        "anger", 
+        "cause", 
+        "offend", 
+        "intense", 
+        "anger", 
+        "fury", 
+        "great", 
+        "face", 
+        "become", 
+        "discolor", 
+        "intense", 
+        "anger", 
+        "usually", 
+        "epic", 
+        "scale", 
+        "anger", 
+        "animosity", 
+        "anger", 
+        "produce", 
+        "annoy", 
+        "irritation", 
+        "sudden", 
+        "outburst", 
+        "anger", 
+        "displease", 
+        "annoy", 
+        "dissatisfy", 
+        "someone", 
+        "something", 
+        "exasperate", 
+        "feel", 
+        "annoyance", 
+        "intense", 
+        "annoyance", 
+        "cause", 
+        "torment", 
+        "annoyance", 
+        "hinder", 
+        "criticize"
+      ], 
+      "name": "anger", 
+      "children": [
+        {
+          "terms": [
+            "passing", 
+            "anger", 
+            "resentment"
+          ], 
+          "name": "huffiness"
+        }, 
+        {
+          "terms": [
+            "persisting", 
+            "angry", 
+            "mood", 
+            "resentful", 
+            "anger", 
+            "display", 
+            "bad", 
+            "temper"
+          ], 
+          "name": "bad_temper", 
+          "children": [
+            {
+              "terms": [
+                "resentful", 
+                "anger"
+              ], 
+              "name": "irascibility"
+            }, 
+            {
+              "terms": [
+                "display", 
+                "bad", 
+                "temper"
+              ], 
+              "name": "fit"
+            }
+          ]
+        }, 
+        {
+          "terms": [
+            "intense", 
+            "anger"
+          ], 
+          "name": "infuriation"
+        }, 
+        {
+          "terms": [
+            "righteous", 
+            "anger", 
+            "intense", 
+            "indignation"
+          ], 
+          "name": "indignation", 
+          "children": [
+            {
+              "terms": [
+                "intense", 
+                "indignation"
+              ], 
+              "name": "dudgeon"
+            }
+          ]
+        }, 
+        {
+          "terms": [
+            "anger", 
+            "cause", 
+            "offend"
+          ], 
+          "name": "umbrage"
+        }, 
+        {
+          "terms": [
+            "intense", 
+            "anger", 
+            "fury", 
+            "great", 
+            "face", 
+            "become", 
+            "discolor", 
+            "intense", 
+            "anger", 
+            "usually", 
+            "epic", 
+            "scale"
+          ], 
+          "name": "fury", 
+          "children": [
+            {
+              "terms": [
+                "fury", 
+                "great", 
+                "face", 
+                "become", 
+                "discolor"
+              ], 
+              "name": "lividity"
+            }, 
+            {
+              "terms": [
+                "intense", 
+                "anger", 
+                "usually", 
+                "epic", 
+                "scale"
+              ], 
+              "name": "wrath"
+            }
+          ]
+        }, 
+        {
+          "terms": [
+            "anger", 
+            "animosity"
+          ], 
+          "name": "dander"
+        }, 
+        {
+          "terms": [
+            "anger", 
+            "produce", 
+            "annoy", 
+            "irritation", 
+            "sudden", 
+            "outburst", 
+            "anger", 
+            "displease", 
+            "annoy", 
+            "dissatisfy", 
+            "someone", 
+            "something", 
+            "exasperate", 
+            "feel", 
+            "annoyance", 
+            "intense", 
+            "annoyance", 
+            "cause", 
+            "torment", 
+            "annoyance", 
+            "hinder", 
+            "criticize"
+          ], 
+          "name": "annoyance", 
+          "children": [
+            {
+              "terms": [
+                "sudden", 
+                "outburst", 
+                "anger"
+              ], 
+              "name": "pique"
+            }, 
+            {
+              "terms": [
+                "displease", 
+                "annoy", 
+                "dissatisfy", 
+                "someone", 
+                "something"
+              ], 
+              "name": "displeasure"
+            }, 
+            {
+              "terms": [
+                "exasperate", 
+                "feel", 
+                "annoyance"
+              ], 
+              "name": "aggravation"
+            }, 
+            {
+              "terms": [
+                "intense", 
+                "annoyance", 
+                "cause", 
+                "torment"
+              ], 
+              "name": "harassment"
+            }, 
+            {
+              "terms": [
+                "annoyance", 
+                "hinder", 
+                "criticize"
+              ], 
+              "name": "frustration"
+            }
+          ]
+        }
+      ]
+    }, 
+    {
+      "colour": "#ffc6ff", 
+      "terms": [
+        "strong", 
+        "dislike", 
+        "intense", 
+        "aversion", 
+        "hate", 
+        "couple", 
+        "disgust", 
+        "disgust", 
+        "so", 
+        "strong", 
+        "make", 
+        "feel", 
+        "sick"
+      ], 
+      "name": "disgust", 
+      "children": [
+        {
+          "terms": [
+            "intense", 
+            "aversion"
+          ], 
+          "name": "repugnance"
+        }, 
+        {
+          "terms": [
+            "hate", 
+            "couple", 
+            "disgust"
+          ], 
+          "name": "abhorrence"
+        }, 
+        {
+          "terms": [
+            "disgust", 
+            "so", 
+            "strong", 
+            "make", 
+            "feel", 
+            "sick"
+          ], 
+          "name": "nausea"
+        }
+      ]
+    }, 
+    {
+      "colour": "#8cc68c", 
+      "terms": [
+        "experience", 
+        "anticipation", 
+        "specific", 
+        "pain", 
+        "danger", 
+        "usually", 
+        "accompany", 
+        "desire", 
+        "flee", 
+        "fight", 
+        "intense", 
+        "profound", 
+        "fear", 
+        "excessive", 
+        "uncontrollable", 
+        "fear", 
+        "intimidate", 
+        "make", 
+        "feel", 
+        "afraid", 
+        "timid", 
+        "fearful", 
+        "expectation", 
+        "anticipation", 
+        "alarm", 
+        "dread", 
+        "melancholy", 
+        "apprehension", 
+        "evil", 
+        "come", 
+        "foreboding", 
+        "happen", 
+        "premonition", 
+        "something", 
+        "adverse", 
+        "sudden", 
+        "numbing", 
+        "dread", 
+        "apprehension", 
+        "go", 
+        "happen", 
+        "fear", 
+        "result", 
+        "awareness", 
+        "danger", 
+        "fear", 
+        "unknown", 
+        "unfamiliar", 
+        "fear", 
+        "make", 
+        "decision", 
+        "fear", 
+        "embarrassment", 
+        "lack", 
+        "self-confidence", 
+        "diffidence", 
+        "indecision", 
+        "something", 
+        "diffidence", 
+        "promotion", 
+        "timidity", 
+        "prevents", 
+        "continuation", 
+        "course", 
+        "action", 
+        "overwhelming", 
+        "feel", 
+        "fear", 
+        "anxiety", 
+        "panic", 
+        "extreme", 
+        "discomposure", 
+        "sudden", 
+        "attack", 
+        "fear", 
+        "almost", 
+        "pleasurable", 
+        "sensation", 
+        "fright", 
+        "fear", 
+        "revulsion", 
+        "fear", 
+        "affect", 
+        "person", 
+        "face", 
+        "audience"
+      ], 
+      "name": "fear", 
+      "children": [
+        {
+          "terms": [
+            "intense", 
+            "profound", 
+            "fear"
+          ], 
+          "name": "horror"
+        }, 
+        {
+          "terms": [
+            "excessive", 
+            "uncontrollable", 
+            "fear"
+          ], 
+          "name": "hysteria"
+        }, 
+        {
+          "terms": [
+            "intimidate", 
+            "make", 
+            "feel", 
+            "afraid", 
+            "timid"
+          ], 
+          "name": "intimidation"
+        }, 
+        {
+          "terms": [
+            "fearful", 
+            "expectation", 
+            "anticipation", 
+            "alarm", 
+            "dread", 
+            "melancholy", 
+            "apprehension", 
+            "evil", 
+            "come", 
+            "foreboding", 
+            "happen", 
+            "premonition", 
+            "something", 
+            "adverse", 
+            "sudden", 
+            "numbing", 
+            "dread", 
+            "apprehension", 
+            "go", 
+            "happen"
+          ], 
+          "name": "apprehension", 
+          "children": [
+            {
+              "terms": [
+                "alarm", 
+                "dread"
+              ], 
+              "name": "trepidation"
+            }, 
+            {
+              "terms": [
+                "melancholy", 
+                "apprehension"
+              ], 
+              "name": "gloom"
+            }, 
+            {
+              "terms": [
+                "evil", 
+                "come", 
+                "foreboding", 
+                "happen", 
+                "premonition", 
+                "something", 
+                "adverse"
+              ], 
+              "name": "foreboding", 
+              "children": [
+                {
+                  "terms": [
+                    "foreboding", 
+                    "happen"
+                  ], 
+                  "name": "presage"
+                }, 
+                {
+                  "terms": [
+                    "premonition", 
+                    "something", 
+                    "adverse"
+                  ], 
+                  "name": "shadow"
+                }
+              ]
+            }, 
+            {
+              "terms": [
+                "sudden", 
+                "numbing", 
+                "dread"
+              ], 
+              "name": "chill"
+            }, 
+            {
+              "terms": [
+                "apprehension", 
+                "go", 
+                "happen"
+              ], 
+              "name": "suspense"
+            }
+          ]
+        }, 
+        {
+          "terms": [
+            "fear", 
+            "result", 
+            "awareness", 
+            "danger"
+          ], 
+          "name": "alarm"
+        }, 
+        {
+          "terms": [
+            "fear", 
+            "unknown", 
+            "unfamiliar", 
+            "fear", 
+            "make", 
+            "decision", 
+            "fear", 
+            "embarrassment", 
+            "lack", 
+            "self-confidence", 
+            "diffidence", 
+            "indecision", 
+            "something", 
+            "diffidence", 
+            "promotion", 
+            "timidity", 
+            "prevents", 
+            "continuation", 
+            "course", 
+            "action"
+          ], 
+          "name": "timidity", 
+          "children": [
+            {
+              "terms": [
+                "fear", 
+                "embarrassment"
+              ], 
+              "name": "shyness"
+            }, 
+            {
+              "terms": [
+                "lack", 
+                "self-confidence", 
+                "diffidence", 
+                "indecision", 
+                "something", 
+                "diffidence", 
+                "promotion"
+              ], 
+              "name": "diffidence", 
+              "children": [
+                {
+                  "terms": [
+                    "diffidence", 
+                    "indecision", 
+                    "something"
+                  ], 
+                  "name": "hesitance"
+                }, 
+                {
+                  "terms": [
+                    "diffidence", 
+                    "promotion"
+                  ], 
+                  "name": "unassertiveness"
+                }
+              ]
+            }, 
+            {
+              "terms": [
+                "timidity", 
+                "prevents", 
+                "continuation", 
+                "course", 
+                "action"
+              ], 
+              "name": "cold_feet"
+            }
+          ]
+        }, 
+        {
+          "terms": [
+            "overwhelming", 
+            "feel", 
+            "fear", 
+            "anxiety", 
+            "panic", 
+            "extreme", 
+            "discomposure"
+          ], 
+          "name": "panic", 
+          "children": [
+            {
+              "terms": [
+                "panic", 
+                "extreme", 
+                "discomposure"
+              ], 
+              "name": "swivet"
+            }
+          ]
+        }, 
+        {
+          "terms": [
+            "sudden", 
+            "attack", 
+            "fear"
+          ], 
+          "name": "scare"
+        }, 
+        {
+          "terms": [
+            "almost", 
+            "pleasurable", 
+            "sensation", 
+            "fright"
+          ], 
+          "name": "frisson"
+        }, 
+        {
+          "terms": [
+            "fear", 
+            "revulsion"
+          ], 
+          "name": "creeps"
+        }, 
+        {
+          "terms": [
+            "fear", 
+            "affect", 
+            "person", 
+            "face", 
+            "audience"
+          ], 
+          "name": "stage_fright"
+        }
+      ]
+    }, 
+    {
+      "colour": "#8c8cff", 
+      "terms": [
+        "experience", 
+        "not", 
+        "well-being", 
+        "dreary", 
+        "pessimistic", 
+        "sadness", 
+        "dismal", 
+        "cheerlessness", 
+        "sadness", 
+        "associate", 
+        "wrong", 
+        "done", 
+        "disappointment", 
+        "sorrow", 
+        "sin", 
+        "arise", 
+        "fear", 
+        "damnation", 
+        "deep", 
+        "regret", 
+        "usually", 
+        "misdeed", 
+        "remorse", 
+        "past", 
+        "conduct", 
+        "remorse", 
+        "cause", 
+        "responsible", 
+        "offense", 
+        "deep", 
+        "feel", 
+        "guilt", 
+        "often", 
+        "experience", 
+        "survive", 
+        "catastrophe", 
+        "took", 
+        "life", 
+        "many", 
+        "others", 
+        "derives", 
+        "part", 
+        "not", 
+        "enough", 
+        "save", 
+        "others", 
+        "perish", 
+        "part", 
+        "unworthy", 
+        "relative", 
+        "die", 
+        "sad", 
+        "gloom", 
+        "inadequacy", 
+        "feel", 
+        "downcast", 
+        "dishearten", 
+        "hopeless", 
+        "unable", 
+        "manage", 
+        "depression", 
+        "result", 
+        "undermining", 
+        "morale", 
+        "abnormal", 
+        "depression", 
+        "discontent", 
+        "oppress", 
+        "oppressive", 
+        "heavy", 
+        "force", 
+        "great", 
+        "sadness", 
+        "associate", 
+        "loss", 
+        "bereavement", 
+        "sorrow", 
+        "often", 
+        "self-indulgent", 
+        "own", 
+        "suffering", 
+        "devastate", 
+        "sorrow", 
+        "despair", 
+        "intense", 
+        "sorrow", 
+        "cause", 
+        "loss", 
+        "love", 
+        "especially", 
+        "death", 
+        "poetry", 
+        "painful", 
+        "grief", 
+        "gloomy", 
+        "sorrow", 
+        "express", 
+        "sorrowfulness", 
+        "intense", 
+        "mournfulness", 
+        "sadness", 
+        "cause", 
+        "grief", 
+        "affliction", 
+        "sadness", 
+        "result", 
+        "forsake", 
+        "abandon", 
+        "sadness", 
+        "express", 
+        "weeping", 
+        "thoughtful", 
+        "sadness", 
+        "dispirit", 
+        "melancholy", 
+        "persistent", 
+        "morbid", 
+        "meditation", 
+        "problem", 
+        "sadness", 
+        "think", 
+        "evil", 
+        "world", 
+        "melancholy", 
+        "apprehension", 
+        "low", 
+        "spirit", 
+        "intense", 
+        "unhappiness", 
+        "persist", 
+        "sadness"
+      ], 
+      "name": "sadness", 
+      "children": [
+        {
+          "terms": [
+            "dreary", 
+            "pessimistic", 
+            "sadness", 
+            "dismal", 
+            "cheerlessness"
+          ], 
+          "name": "cheerlessness", 
+          "children": [
+            {
+              "terms": [
+                "dismal", 
+                "cheerlessness"
+              ], 
+              "name": "joylessness"
+            }
+          ]
+        }, 
+        {
+          "terms": [
+            "sadness", 
+            "associate", 
+            "wrong", 
+            "done", 
+            "disappointment", 
+            "sorrow", 
+            "sin", 
+            "arise", 
+            "fear", 
+            "damnation", 
+            "deep", 
+            "regret", 
+            "usually", 
+            "misdeed", 
+            "remorse", 
+            "past", 
+            "conduct", 
+            "remorse", 
+            "cause", 
+            "responsible", 
+            "offense", 
+            "deep", 
+            "feel", 
+            "guilt", 
+            "often", 
+            "experience", 
+            "survive", 
+            "catastrophe", 
+            "took", 
+            "life", 
+            "many", 
+            "others", 
+            "derives", 
+            "part", 
+            "not", 
+            "enough", 
+            "save", 
+            "others", 
+            "perish", 
+            "part", 
+            "unworthy", 
+            "relative", 
+            "die"
+          ], 
+          "name": "sorrow", 
+          "children": [
+            {
+              "terms": [
+                "sorrow", 
+                "sin", 
+                "arise", 
+                "fear", 
+                "damnation"
+              ], 
+              "name": "attrition"
+            }, 
+            {
+              "terms": [
+                "deep", 
+                "regret", 
+                "usually", 
+                "misdeed", 
+                "remorse", 
+                "past", 
+                "conduct", 
+                "remorse", 
+                "cause", 
+                "responsible", 
+                "offense", 
+                "deep", 
+                "feel", 
+                "guilt", 
+                "often", 
+                "experience", 
+                "survive", 
+                "catastrophe", 
+                "took", 
+                "life", 
+                "many", 
+                "others", 
+                "derives", 
+                "part", 
+                "not", 
+                "enough", 
+                "save", 
+                "others", 
+                "perish", 
+                "part", 
+                "unworthy", 
+                "relative", 
+                "die"
+              ], 
+              "name": "compunction", 
+              "children": [
+                {
+                  "terms": [
+                    "remorse", 
+                    "past", 
+                    "conduct"
+                  ], 
+                  "name": "repentance"
+                }, 
+                {
+                  "terms": [
+                    "remorse", 
+                    "cause", 
+                    "responsible", 
+                    "offense", 
+                    "deep", 
+                    "feel", 
+                    "guilt", 
+                    "often", 
+                    "experience", 
+                    "survive", 
+                    "catastrophe", 
+                    "took", 
+                    "life", 
+                    "many", 
+                    "others", 
+                    "derives", 
+                    "part", 
+                    "not", 
+                    "enough", 
+                    "save", 
+                    "others", 
+                    "perish", 
+                    "part", 
+                    "unworthy", 
+                    "relative", 
+                    "die"
+                  ], 
+                  "name": "guilt", 
+                  "children": [
+                    {
+                      "terms": [
+                        "deep", 
+                        "feel", 
+                        "guilt", 
+                        "often", 
+                        "experience", 
+                        "survive", 
+                        "catastrophe", 
+                        "took", 
+                        "life", 
+                        "many", 
+                        "others", 
+                        "derives", 
+                        "part", 
+                        "not", 
+                        "enough", 
+                        "save", 
+                        "others", 
+                        "perish", 
+                        "part", 
+                        "unworthy", 
+                        "relative", 
+                        "die"
+                      ], 
+                      "name": "survivor_guilt"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }, 
+        {
+          "terms": [
+            "sad", 
+            "gloom", 
+            "inadequacy", 
+            "feel", 
+            "downcast", 
+            "dishearten", 
+            "hopeless", 
+            "unable", 
+            "manage", 
+            "depression", 
+            "result", 
+            "undermining", 
+            "morale", 
+            "abnormal", 
+            "depression", 
+            "discontent", 
+            "oppress", 
+            "oppressive", 
+            "heavy", 
+            "force"
+          ], 
+          "name": "depression", 
+          "children": [
+            {
+              "terms": [
+                "feel", 
+                "downcast", 
+                "dishearten", 
+                "hopeless"
+              ], 
+              "name": "despondency"
+            }, 
+            {
+              "terms": [
+                "unable", 
+                "manage"
+              ], 
+              "name": "helplessness"
+            }, 
+            {
+              "terms": [
+                "depression", 
+                "result", 
+                "undermining", 
+                "morale"
+              ], 
+              "name": "demoralization"
+            }, 
+            {
+              "terms": [
+                "abnormal", 
+                "depression", 
+                "discontent"
+              ], 
+              "name": "dysphoria"
+            }, 
+            {
+              "terms": [
+                "oppress", 
+                "oppressive", 
+                "heavy", 
+                "force"
+              ], 
+              "name": "oppression", 
+              "children": [
+                {
+                  "terms": [
+                    "oppressive", 
+                    "heavy", 
+                    "force"
+                  ], 
+                  "name": "weight"
+                }
+              ]
+            }
+          ]
+        }, 
+        {
+          "terms": [
+            "great", 
+            "sadness", 
+            "associate", 
+            "loss", 
+            "bereavement", 
+            "sorrow", 
+            "often", 
+            "self-indulgent", 
+            "own", 
+            "suffering", 
+            "devastate", 
+            "sorrow", 
+            "despair", 
+            "intense", 
+            "sorrow", 
+            "cause", 
+            "loss", 
+            "love", 
+            "especially", 
+            "death", 
+            "poetry", 
+            "painful", 
+            "grief", 
+            "gloomy", 
+            "sorrow", 
+            "express", 
+            "sorrowfulness", 
+            "intense", 
+            "mournfulness"
+          ], 
+          "name": "sorrow", 
+          "children": [
+            {
+              "terms": [
+                "sorrow", 
+                "often", 
+                "self-indulgent", 
+                "own", 
+                "suffering"
+              ], 
+              "name": "self-pity"
+            }, 
+            {
+              "terms": [
+                "devastate", 
+                "sorrow", 
+                "despair"
+              ], 
+              "name": "broken_heart"
+            }, 
+            {
+              "terms": [
+                "intense", 
+                "sorrow", 
+                "cause", 
+                "loss", 
+                "love", 
+                "especially", 
+                "death", 
+                "poetry", 
+                "painful", 
+                "grief"
+              ], 
+              "name": "grief", 
+              "children": [
+                {
+                  "terms": [
+                    "poetry", 
+                    "painful", 
+                    "grief"
+                  ], 
+                  "name": "dolor"
+                }
+              ]
+            }, 
+            {
+              "terms": [
+                "gloomy", 
+                "sorrow", 
+                "express", 
+                "sorrowfulness", 
+                "intense", 
+                "mournfulness"
+              ], 
+              "name": "mournfulness", 
+              "children": [
+                {
+                  "terms": [
+                    "express", 
+                    "sorrowfulness"
+                  ], 
+                  "name": "plaintiveness"
+                }, 
+                {
+                  "terms": [
+                    "intense", 
+                    "mournfulness"
+                  ], 
+                  "name": "woe"
+                }
+              ]
+            }
+          ]
+        }, 
+        {
+          "terms": [
+            "sadness", 
+            "cause", 
+            "grief", 
+            "affliction"
+          ], 
+          "name": "dolefulness"
+        }, 
+        {
+          "terms": [
+            "sadness", 
+            "result", 
+            "forsake", 
+            "abandon"
+          ], 
+          "name": "forlornness"
+        }, 
+        {
+          "terms": [
+            "sadness", 
+            "express", 
+            "weeping"
+          ], 
+          "name": "weepiness"
+        }, 
+        {
+          "terms": [
+            "thoughtful", 
+            "sadness", 
+            "dispirit", 
+            "melancholy", 
+            "persistent", 
+            "morbid", 
+            "meditation", 
+            "problem", 
+            "sadness", 
+            "think", 
+            "evil", 
+            "world", 
+            "melancholy", 
+            "apprehension"
+          ], 
+          "name": "melancholy", 
+          "children": [
+            {
+              "terms": [
+                "dispirit", 
+                "melancholy"
+              ], 
+              "name": "heavyheartedness"
+            }, 
+            {
+              "terms": [
+                "persistent", 
+                "morbid", 
+                "meditation", 
+                "problem"
+              ], 
+              "name": "pensiveness"
+            }, 
+            {
+              "terms": [
+                "sadness", 
+                "think", 
+                "evil", 
+                "world"
+              ], 
+              "name": "world-weariness"
+            }, 
+            {
+              "terms": [
+                "melancholy", 
+                "apprehension"
+              ], 
+              "name": "gloom"
+            }
+          ]
+        }, 
+        {
+          "terms": [
+            "low", 
+            "spirit"
+          ], 
+          "name": "downheartedness"
+        }, 
+        {
+          "terms": [
+            "intense", 
+            "unhappiness"
+          ], 
+          "name": "misery"
+        }, 
+        {
+          "terms": [
+            "persist", 
+            "sadness"
+          ], 
+          "name": "heaviness"
+        }
+      ]
+    }, 
+    {
+      "colour": "#a5dbff", 
+      "terms": [
+        "accompanies", 
+        "something", 
+        "extremely", 
+        "surprising", 
+        "arouse", 
+        "something", 
+        "strange", 
+        "surprising", 
+        "overwhelming", 
+        "feel", 
+        "wonder", 
+        "admiration", 
+        "astonishment", 
+        "feel", 
+        "something", 
+        "totally", 
+        "unexpected", 
+        "happens", 
+        "stupefied", 
+        "astonishment", 
+        "distress", 
+        "disbelief", 
+        "something", 
+        "bad", 
+        "happens", 
+        "accidentally"
+      ], 
+      "name": "astonishment", 
+      "children": [
+        {
+          "terms": [
+            "arouse", 
+            "something", 
+            "strange", 
+            "surprising", 
+            "overwhelming", 
+            "feel", 
+            "wonder", 
+            "admiration"
+          ], 
+          "name": "wonder", 
+          "children": [
+            {
+              "terms": [
+                "overwhelming", 
+                "feel", 
+                "wonder", 
+                "admiration"
+              ], 
+              "name": "awe"
+            }
+          ]
+        }, 
+        {
+          "terms": [
+            "astonishment", 
+            "feel", 
+            "something", 
+            "totally", 
+            "unexpected", 
+            "happens"
+          ], 
+          "name": "surprise"
+        }, 
+        {
+          "terms": [
+            "stupefied", 
+            "astonishment", 
+            "distress", 
+            "disbelief", 
+            "something", 
+            "bad", 
+            "happens", 
+            "accidentally"
+          ], 
+          "name": "stupefaction", 
+          "children": [
+            {
+              "terms": [
+                "distress", 
+                "disbelief", 
+                "something", 
+                "bad", 
+                "happens", 
+                "accidentally"
+              ], 
+              "name": "daze"
+            }
+          ]
+        }
+      ]
+    }
+  ], 
+  "terms": [
+    {
+      "tfidf": 1.554530479430497, 
+      "node": "rejoicing", 
+      "term": "happiness"
+    }, 
+    {
+      "tfidf": 1.2606371469794375, 
+      "node": "rejoicing", 
+      "term": "great"
+    }, 
+    {
+      "tfidf": 1.666102255087602, 
+      "node": "togetherness", 
+      "term": "closeness"
+    }, 
+    {
+      "tfidf": 1.666102255087602, 
+      "node": "togetherness", 
+      "term": "affectionate"
+    }, 
+    {
+      "tfidf": 0.9049716456567463, 
+      "node": "closeness", 
+      "term": "intimate"
+    }, 
+    {
+      "tfidf": 0.9049716456567463, 
+      "node": "closeness", 
+      "term": "belong"
+    }, 
+    {
+      "tfidf": 0.833051127543801, 
+      "node": "closeness", 
+      "term": "closeness"
+    }, 
+    {
+      "tfidf": 0.833051127543801, 
+      "node": "closeness", 
+      "term": "affectionate"
+    }, 
+    {
+      "tfidf": 1.8099432913134925, 
+      "node": "comfortableness", 
+      "term": "relationship"
+    }, 
+    {
+      "tfidf": 1.8099432913134925, 
+      "node": "comfortableness", 
+      "term": "ease"
+    }, 
+    {
+      "tfidf": 0.7239773165253971, 
+      "node": "belonging", 
+      "term": "relationship"
+    }, 
+    {
+      "tfidf": 0.402535169073515, 
+      "node": "belonging", 
+      "term": "secure"
+    }, 
+    {
+      "tfidf": 0.402535169073515, 
+      "node": "belonging", 
+      "term": "felt"
+    }, 
+    {
+      "tfidf": 0.36198865826269855, 
+      "node": "belonging", 
+      "term": "intimate"
+    }, 
+    {
+      "tfidf": 0.36198865826269855, 
+      "node": "belonging", 
+      "term": "ease"
+    }, 
+    {
+      "tfidf": 0.36198865826269855, 
+      "node": "belonging", 
+      "term": "belong"
+    }, 
+    {
+      "tfidf": 0.3332204510175204, 
+      "node": "belonging", 
+      "term": "closeness"
+    }, 
+    {
+      "tfidf": 0.3332204510175204, 
+      "node": "belonging", 
+      "term": "affectionate"
+    }, 
+    {
+      "tfidf": 0.3109060958860994, 
+      "node": "belonging", 
+      "term": "happiness"
+    }, 
+    {
+      "tfidf": 1.0063379226837874, 
+      "node": "bonheur", 
+      "term": "French"
+    }, 
+    {
+      "tfidf": 0.833051127543801, 
+      "node": "bonheur", 
+      "term": "humor"
+    }, 
+    {
+      "tfidf": 0.7772652397152485, 
+      "node": "bonheur", 
+      "term": "happiness"
+    }, 
+    {
+      "tfidf": 0.7772652397152485, 
+      "node": "bonheur", 
+      "term": "good"
+    }, 
+    {
+      "tfidf": 1.3417838969117164, 
+      "node": "gladness", 
+      "term": "pleasure"
+    }, 
+    {
+      "tfidf": 1.3417838969117164, 
+      "node": "gladness", 
+      "term": "joy"
+    }, 
+    {
+      "tfidf": 0.8796857765384194, 
+      "node": "gladness", 
+      "term": "experience"
+    }, 
+    {
+      "tfidf": 1.666102255087602, 
+      "node": "gloat", 
+      "term": "malicious"
+    }, 
+    {
+      "tfidf": 1.4633697010335198, 
+      "node": "gloat", 
+      "term": "satisfaction"
+    }, 
+    {
+      "tfidf": 1.1107348367250678, 
+      "node": "fulfillment", 
+      "term": "achieve"
+    }, 
+    {
+      "tfidf": 1.0363536529536646, 
+      "node": "fulfillment", 
+      "term": "desire"
+    }, 
+    {
+      "tfidf": 0.9755798006890132, 
+      "node": "fulfillment", 
+      "term": "satisfaction"
+    }, 
+    {
+      "tfidf": 1.554530479430497, 
+      "node": "civic_pride", 
+      "term": "pride"
+    }, 
+    {
+      "tfidf": 1.554530479430497, 
+      "node": "civic_pride", 
+      "term": "city"
+    }, 
+    {
+      "tfidf": 0.833051127543801, 
+      "node": "pride", 
+      "term": "achievement"
+    }, 
+    {
+      "tfidf": 0.7772652397152485, 
+      "node": "pride", 
+      "term": "pride"
+    }, 
+    {
+      "tfidf": 0.7772652397152485, 
+      "node": "pride", 
+      "term": "city"
+    }, 
+    {
+      "tfidf": 0.7316848505167599, 
+      "node": "pride", 
+      "term": "satisfaction"
+    }, 
+    {
+      "tfidf": 1.554530479430497, 
+      "node": "smugness", 
+      "term": "self-satisfaction"
+    }, 
+    {
+      "tfidf": 1.3862943611198906, 
+      "node": "smugness", 
+      "term": "excessive"
+    }, 
+    {
+      "tfidf": 1.1107348367250678, 
+      "node": "complacency", 
+      "term": "satisfy"
+    }, 
+    {
+      "tfidf": 1.0363536529536646, 
+      "node": "complacency", 
+      "term": "self-satisfaction"
+    }, 
+    {
+      "tfidf": 0.9241962407465937, 
+      "node": "complacency", 
+      "term": "excessive"
+    }, 
+    {
+      "tfidf": 0.4877899003445066, 
+      "node": "satisfaction", 
+      "term": "satisfaction"
+    }, 
+    {
+      "tfidf": 0.34545121765122155, 
+      "node": "satisfaction", 
+      "term": "desire"
+    }, 
+    {
+      "tfidf": 0.2011048101459436, 
+      "node": "satisfaction", 
+      "term": "need"
+    }, 
+    {
+      "tfidf": 0.2011048101459436, 
+      "node": "satisfaction", 
+      "term": "fulfil"
+    }, 
+    {
+      "tfidf": 0.2011048101459436, 
+      "node": "satisfaction", 
+      "term": "contentment"
+    }, 
+    {
+      "tfidf": 0.18512247278751132, 
+      "node": "satisfaction", 
+      "term": "satisfy"
+    }, 
+    {
+      "tfidf": 0.18512247278751132, 
+      "node": "satisfaction", 
+      "term": "malicious"
+    }, 
+    {
+      "tfidf": 0.18512247278751132, 
+      "node": "satisfaction", 
+      "term": "achievement"
+    }, 
+    {
+      "tfidf": 0.18512247278751132, 
+      "node": "satisfaction", 
+      "term": "achieve"
+    }, 
+    {
+      "tfidf": 0.17272560882561078, 
+      "node": "satisfaction", 
+      "term": "self-satisfaction"
+    }, 
+    {
+      "tfidf": 0.17272560882561078, 
+      "node": "satisfaction", 
+      "term": "pride"
+    }, 
+    {
+      "tfidf": 0.17272560882561078, 
+      "node": "satisfaction", 
+      "term": "expectation"
+    }, 
+    {
+      "tfidf": 0.17272560882561078, 
+      "node": "satisfaction", 
+      "term": "city"
+    }, 
+    {
+      "tfidf": 0.15403270679109896, 
+      "node": "satisfaction", 
+      "term": "excessive"
+    }, 
+    {
+      "tfidf": 0.08558028005261939, 
+      "node": "satisfaction", 
+      "term": "feel"
+    }, 
+    {
+      "tfidf": 0.4181056288667199, 
+      "node": "contentment", 
+      "term": "satisfaction"
+    }, 
+    {
+      "tfidf": 0.29610104370104706, 
+      "node": "contentment", 
+      "term": "desire"
+    }, 
+    {
+      "tfidf": 0.19168341384453091, 
+      "node": "contentment", 
+      "term": "situation"
+    }, 
+    {
+      "tfidf": 0.17237555155366593, 
+      "node": "contentment", 
+      "term": "need"
+    }, 
+    {
+      "tfidf": 0.17237555155366593, 
+      "node": "contentment", 
+      "term": "fulfil"
+    }, 
+    {
+      "tfidf": 0.17237555155366593, 
+      "node": "contentment", 
+      "term": "contentment"
+    }, 
+    {
+      "tfidf": 0.15867640524643828, 
+      "node": "contentment", 
+      "term": "satisfy"
+    }, 
+    {
+      "tfidf": 0.15867640524643828, 
+      "node": "contentment", 
+      "term": "malicious"
+    }, 
+    {
+      "tfidf": 0.15867640524643828, 
+      "node": "contentment", 
+      "term": "achievement"
+    }, 
+    {
+      "tfidf": 0.15867640524643828, 
+      "node": "contentment", 
+      "term": "achieve"
+    }, 
+    {
+      "tfidf": 0.14805052185052353, 
+      "node": "contentment", 
+      "term": "self-satisfaction"
+    }, 
+    {
+      "tfidf": 0.14805052185052353, 
+      "node": "contentment", 
+      "term": "pride"
+    }, 
+    {
+      "tfidf": 0.14805052185052353, 
+      "node": "contentment", 
+      "term": "happiness"
+    }, 
+    {
+      "tfidf": 0.14805052185052353, 
+      "node": "contentment", 
+      "term": "expectation"
+    }, 
+    {
+      "tfidf": 0.14805052185052353, 
+      "node": "contentment", 
+      "term": "city"
+    }, 
+    {
+      "tfidf": 0.1320280343923705, 
+      "node": "contentment", 
+      "term": "life"
+    }, 
+    {
+      "tfidf": 0.1320280343923705, 
+      "node": "contentment", 
+      "term": "excessive"
+    }, 
+    {
+      "tfidf": 0.07335452575938804, 
+      "node": "contentment", 
+      "term": "feel"
+    }, 
+    {
+      "tfidf": 1.8099432913134925, 
+      "node": "jocundity", 
+      "term": "facetious"
+    }, 
+    {
+      "tfidf": 1.666102255087602, 
+      "node": "jocundity", 
+      "term": "merriment"
+    }, 
+    {
+      "tfidf": 0.6033144304378308, 
+      "node": "jollity", 
+      "term": "jovial"
+    }, 
+    {
+      "tfidf": 0.6033144304378308, 
+      "node": "jollity", 
+      "term": "jolly"
+    }, 
+    {
+      "tfidf": 0.6033144304378308, 
+      "node": "jollity", 
+      "term": "full"
+    }, 
+    {
+      "tfidf": 0.5553674183625339, 
+      "node": "jollity", 
+      "term": "humor"
+    }, 
+    {
+      "tfidf": 0.5181768264768323, 
+      "node": "jollity", 
+      "term": "good"
+    }, 
+    {
+      "tfidf": 0.25674084015785814, 
+      "node": "jollity", 
+      "term": "feel"
+    }, 
+    {
+      "tfidf": 1.666102255087602, 
+      "node": "hilarity", 
+      "term": "merriment"
+    }, 
+    {
+      "tfidf": 1.2606371469794375, 
+      "node": "hilarity", 
+      "term": "great"
+    }, 
+    {
+      "tfidf": 0.5553674183625339, 
+      "node": "gaiety", 
+      "term": "merriment"
+    }, 
+    {
+      "tfidf": 0.3354459742279291, 
+      "node": "gaiety", 
+      "term": "gay"
+    }, 
+    {
+      "tfidf": 0.3016572152189154, 
+      "node": "gaiety", 
+      "term": "jovial"
+    }, 
+    {
+      "tfidf": 0.3016572152189154, 
+      "node": "gaiety", 
+      "term": "jolly"
+    }, 
+    {
+      "tfidf": 0.3016572152189154, 
+      "node": "gaiety", 
+      "term": "full"
+    }, 
+    {
+      "tfidf": 0.3016572152189154, 
+      "node": "gaiety", 
+      "term": "facetious"
+    }, 
+    {
+      "tfidf": 0.27768370918126695, 
+      "node": "gaiety", 
+      "term": "humor"
+    }, 
+    {
+      "tfidf": 0.25908841323841614, 
+      "node": "gaiety", 
+      "term": "good"
+    }, 
+    {
+      "tfidf": 0.25674084015785814, 
+      "node": "gaiety", 
+      "term": "feel"
+    }, 
+    {
+      "tfidf": 0.2101061911632396, 
+      "node": "gaiety", 
+      "term": "great"
+    }, 
+    {
+      "tfidf": 1.2066288608756617, 
+      "node": "buoyancy", 
+      "term": "surface"
+    }, 
+    {
+      "tfidf": 1.2066288608756617, 
+      "node": "buoyancy", 
+      "term": "cheerfulness"
+    }, 
+    {
+      "tfidf": 1.2066288608756617, 
+      "node": "buoyancy", 
+      "term": "bubble"
+    }, 
+    {
+      "tfidf": 1.2066288608756617, 
+      "node": "carefreeness", 
+      "term": "trouble"
+    }, 
+    {
+      "tfidf": 1.2066288608756617, 
+      "node": "carefreeness", 
+      "term": "nothing"
+    }, 
+    {
+      "tfidf": 1.2066288608756617, 
+      "node": "carefreeness", 
+      "term": "cheerful"
+    }, 
+    {
+      "tfidf": 0.44726129897057215, 
+      "node": "cheerfulness", 
+      "term": "spontaneous"
+    }, 
+    {
+      "tfidf": 0.4022096202918872, 
+      "node": "cheerfulness", 
+      "term": "trouble"
+    }, 
+    {
+      "tfidf": 0.4022096202918872, 
+      "node": "cheerfulness", 
+      "term": "surface"
+    }, 
+    {
+      "tfidf": 0.4022096202918872, 
+      "node": "cheerfulness", 
+      "term": "nothing"
+    }, 
+    {
+      "tfidf": 0.4022096202918872, 
+      "node": "cheerfulness", 
+      "term": "cheerfulness"
+    }, 
+    {
+      "tfidf": 0.4022096202918872, 
+      "node": "cheerfulness", 
+      "term": "cheerful"
+    }, 
+    {
+      "tfidf": 0.4022096202918872, 
+      "node": "cheerfulness", 
+      "term": "bubble"
+    }, 
+    {
+      "tfidf": 0.37024494557502263, 
+      "node": "cheerfulness", 
+      "term": "spirit"
+    }, 
+    {
+      "tfidf": 0.34545121765122155, 
+      "node": "cheerfulness", 
+      "term": "good"
+    }, 
+    {
+      "tfidf": 0.19740069580069802, 
+      "node": "happiness", 
+      "term": "happiness"
+    }, 
+    {
+      "tfidf": 0.14805052185052353, 
+      "node": "happiness", 
+      "term": "good"
+    }, 
+    {
+      "tfidf": 0.1393685429555733, 
+      "node": "happiness", 
+      "term": "satisfaction"
+    }, 
+    {
+      "tfidf": 0.11491703436911063, 
+      "node": "happiness", 
+      "term": "relationship"
+    }, 
+    {
+      "tfidf": 0.10578427016429218, 
+      "node": "happiness", 
+      "term": "merriment"
+    }, 
+    {
+      "tfidf": 0.10578427016429218, 
+      "node": "happiness", 
+      "term": "humor"
+    }, 
+    {
+      "tfidf": 0.09870034790034901, 
+      "node": "happiness", 
+      "term": "desire"
+    }, 
+    {
+      "tfidf": 0.08377959776556375, 
+      "node": "happiness", 
+      "term": "experience"
+    }, 
+    {
+      "tfidf": 0.08004045377647222, 
+      "node": "happiness", 
+      "term": "great"
+    }, 
+    {
+      "tfidf": 0.07335452575938804, 
+      "node": "happiness", 
+      "term": "feel"
+    }, 
+    {
+      "tfidf": 0.06389447128151031, 
+      "node": "happiness", 
+      "term": "well-being"
+    }, 
+    {
+      "tfidf": 0.06389447128151031, 
+      "node": "happiness", 
+      "term": "spontaneous"
+    }, 
+    {
+      "tfidf": 0.06389447128151031, 
+      "node": "happiness", 
+      "term": "situation"
+    }, 
+    {
+      "tfidf": 0.06389447128151031, 
+      "node": "happiness", 
+      "term": "secure"
+    }, 
+    {
+      "tfidf": 0.06389447128151031, 
+      "node": "happiness", 
+      "term": "pleasure"
+    }, 
+    {
+      "tfidf": 0.06389447128151031, 
+      "node": "happiness", 
+      "term": "joy"
+    }, 
+    {
+      "tfidf": 0.06389447128151031, 
+      "node": "happiness", 
+      "term": "gay"
+    }, 
+    {
+      "tfidf": 0.06389447128151031, 
+      "node": "happiness", 
+      "term": "felt"
+    }, 
+    {
+      "tfidf": 0.06389447128151031, 
+      "node": "happiness", 
+      "term": "French"
+    }, 
+    {
+      "tfidf": 0.057458517184555316, 
+      "node": "happiness", 
+      "term": "trouble"
+    }, 
+    {
+      "tfidf": 0.057458517184555316, 
+      "node": "happiness", 
+      "term": "surface"
+    }, 
+    {
+      "tfidf": 0.057458517184555316, 
+      "node": "happiness", 
+      "term": "nothing"
+    }, 
+    {
+      "tfidf": 0.057458517184555316, 
+      "node": "happiness", 
+      "term": "need"
+    }, 
+    {
+      "tfidf": 0.057458517184555316, 
+      "node": "happiness", 
+      "term": "jovial"
+    }, 
+    {
+      "tfidf": 0.057458517184555316, 
+      "node": "happiness", 
+      "term": "jolly"
+    }, 
+    {
+      "tfidf": 0.057458517184555316, 
+      "node": "happiness", 
+      "term": "intimate"
+    }, 
+    {
+      "tfidf": 0.057458517184555316, 
+      "node": "happiness", 
+      "term": "full"
+    }, 
+    {
+      "tfidf": 0.057458517184555316, 
+      "node": "happiness", 
+      "term": "fulfil"
+    }, 
+    {
+      "tfidf": 0.057458517184555316, 
+      "node": "happiness", 
+      "term": "facetious"
+    }, 
+    {
+      "tfidf": 0.057458517184555316, 
+      "node": "happiness", 
+      "term": "ease"
+    }, 
+    {
+      "tfidf": 0.057458517184555316, 
+      "node": "happiness", 
+      "term": "contentment"
+    }, 
+    {
+      "tfidf": 0.057458517184555316, 
+      "node": "happiness", 
+      "term": "cheerfulness"
+    }, 
+    {
+      "tfidf": 0.057458517184555316, 
+      "node": "happiness", 
+      "term": "cheerful"
+    }, 
+    {
+      "tfidf": 0.057458517184555316, 
+      "node": "happiness", 
+      "term": "bubble"
+    }, 
+    {
+      "tfidf": 0.057458517184555316, 
+      "node": "happiness", 
+      "term": "belong"
+    }, 
+    {
+      "tfidf": 0.05289213508214609, 
+      "node": "happiness", 
+      "term": "spirit"
+    }, 
+    {
+      "tfidf": 0.05289213508214609, 
+      "node": "happiness", 
+      "term": "satisfy"
+    }, 
+    {
+      "tfidf": 0.05289213508214609, 
+      "node": "happiness", 
+      "term": "malicious"
+    }, 
+    {
+      "tfidf": 0.05289213508214609, 
+      "node": "happiness", 
+      "term": "closeness"
+    }, 
+    {
+      "tfidf": 0.05289213508214609, 
+      "node": "happiness", 
+      "term": "affectionate"
+    }, 
+    {
+      "tfidf": 0.05289213508214609, 
+      "node": "happiness", 
+      "term": "achievement"
+    }, 
+    {
+      "tfidf": 0.05289213508214609, 
+      "node": "happiness", 
+      "term": "achieve"
+    }, 
+    {
+      "tfidf": 0.049350173950174506, 
+      "node": "happiness", 
+      "term": "self-satisfaction"
+    }, 
+    {
+      "tfidf": 0.049350173950174506, 
+      "node": "happiness", 
+      "term": "pride"
+    }, 
+    {
+      "tfidf": 0.049350173950174506, 
+      "node": "happiness", 
+      "term": "expectation"
+    }, 
+    {
+      "tfidf": 0.049350173950174506, 
+      "node": "happiness", 
+      "term": "city"
+    }, 
+    {
+      "tfidf": 0.04400934479745684, 
+      "node": "happiness", 
+      "term": "life"
+    }, 
+    {
+      "tfidf": 0.04400934479745684, 
+      "node": "happiness", 
+      "term": "excessive"
+    }, 
+    {
+      "tfidf": 1.3417838969117164, 
+      "node": "huffiness", 
+      "term": "resentment"
+    }, 
+    {
+      "tfidf": 1.3417838969117164, 
+      "node": "huffiness", 
+      "term": "passing"
+    }, 
+    {
+      "tfidf": 0.7445307405023647, 
+      "node": "huffiness", 
+      "term": "anger"
+    }, 
+    {
+      "tfidf": 1.8099432913134925, 
+      "node": "irascibility", 
+      "term": "resentful"
+    }, 
+    {
+      "tfidf": 1.1167961107535471, 
+      "node": "irascibility", 
+      "term": "anger"
+    }, 
+    {
+      "tfidf": 1.2066288608756617, 
+      "node": "fit", 
+      "term": "temper"
+    }, 
+    {
+      "tfidf": 1.2066288608756617, 
+      "node": "fit", 
+      "term": "display"
+    }, 
+    {
+      "tfidf": 0.9755798006890132, 
+      "node": "fit", 
+      "term": "bad"
+    }, 
+    {
+      "tfidf": 0.5031689613418937, 
+      "node": "bad_temper", 
+      "term": "persisting"
+    }, 
+    {
+      "tfidf": 0.5031689613418937, 
+      "node": "bad_temper", 
+      "term": "mood"
+    }, 
+    {
+      "tfidf": 0.5031689613418937, 
+      "node": "bad_temper", 
+      "term": "angry"
+    }, 
+    {
+      "tfidf": 0.45248582282837313, 
+      "node": "bad_temper", 
+      "term": "temper"
+    }, 
+    {
+      "tfidf": 0.45248582282837313, 
+      "node": "bad_temper", 
+      "term": "resentful"
+    }, 
+    {
+      "tfidf": 0.45248582282837313, 
+      "node": "bad_temper", 
+      "term": "display"
+    }, 
+    {
+      "tfidf": 0.36584242525837996, 
+      "node": "bad_temper", 
+      "term": "bad"
+    }, 
+    {
+      "tfidf": 0.2791990276883868, 
+      "node": "bad_temper", 
+      "term": "anger"
+    }, 
+    {
+      "tfidf": 1.1167961107535471, 
+      "node": "infuriation", 
+      "term": "anger"
+    }, 
+    {
+      "tfidf": 0.9140635566994649, 
+      "node": "infuriation", 
+      "term": "intense"
+    }, 
+    {
+      "tfidf": 1.8099432913134925, 
+      "node": "dudgeon", 
+      "term": "indignation"
+    }, 
+    {
+      "tfidf": 0.9140635566994649, 
+      "node": "dudgeon", 
+      "term": "intense"
+    }, 
+    {
+      "tfidf": 1.0063379226837874, 
+      "node": "indignation", 
+      "term": "righteous"
+    }, 
+    {
+      "tfidf": 0.9049716456567463, 
+      "node": "indignation", 
+      "term": "indignation"
+    }, 
+    {
+      "tfidf": 0.5583980553767736, 
+      "node": "indignation", 
+      "term": "anger"
+    }, 
+    {
+      "tfidf": 0.45703177834973246, 
+      "node": "indignation", 
+      "term": "intense"
+    }, 
+    {
+      "tfidf": 1.3417838969117164, 
+      "node": "umbrage", 
+      "term": "offend"
+    }, 
+    {
+      "tfidf": 0.7735345328322413, 
+      "node": "umbrage", 
+      "term": "cause"
+    }, 
+    {
+      "tfidf": 0.7445307405023647, 
+      "node": "umbrage", 
+      "term": "anger"
+    }, 
+    {
+      "tfidf": 0.7239773165253971, 
+      "node": "lividity", 
+      "term": "fury"
+    }, 
+    {
+      "tfidf": 0.7239773165253971, 
+      "node": "lividity", 
+      "term": "discolor"
+    }, 
+    {
+      "tfidf": 0.7239773165253971, 
+      "node": "lividity", 
+      "term": "become"
+    }, 
+    {
+      "tfidf": 0.6218121917721988, 
+      "node": "lividity", 
+      "term": "face"
+    }, 
+    {
+      "tfidf": 0.504254858791775, 
+      "node": "lividity", 
+      "term": "great"
+    }, 
+    {
+      "tfidf": 0.7239773165253971, 
+      "node": "wrath", 
+      "term": "scale"
+    }, 
+    {
+      "tfidf": 0.7239773165253971, 
+      "node": "wrath", 
+      "term": "epic"
+    }, 
+    {
+      "tfidf": 0.5545177444479562, 
+      "node": "wrath", 
+      "term": "usually"
+    }, 
+    {
+      "tfidf": 0.4467184443014189, 
+      "node": "wrath", 
+      "term": "anger"
+    }, 
+    {
+      "tfidf": 0.365625422679786, 
+      "node": "wrath", 
+      "term": "intense"
+    }, 
+    {
+      "tfidf": 0.37226537025118234, 
+      "node": "fury", 
+      "term": "anger"
+    }, 
+    {
+      "tfidf": 0.304687852233155, 
+      "node": "fury", 
+      "term": "intense"
+    }, 
+    {
+      "tfidf": 0.3016572152189154, 
+      "node": "fury", 
+      "term": "scale"
+    }, 
+    {
+      "tfidf": 0.3016572152189154, 
+      "node": "fury", 
+      "term": "fury"
+    }, 
+    {
+      "tfidf": 0.3016572152189154, 
+      "node": "fury", 
+      "term": "epic"
+    }, 
+    {
+      "tfidf": 0.3016572152189154, 
+      "node": "fury", 
+      "term": "discolor"
+    }, 
+    {
+      "tfidf": 0.3016572152189154, 
+      "node": "fury", 
+      "term": "become"
+    }, 
+    {
+      "tfidf": 0.25908841323841614, 
+      "node": "fury", 
+      "term": "face"
+    }, 
+    {
+      "tfidf": 0.23104906018664842, 
+      "node": "fury", 
+      "term": "usually"
+    }, 
+    {
+      "tfidf": 0.2101061911632396, 
+      "node": "fury", 
+      "term": "great"
+    }, 
+    {
+      "tfidf": 2.012675845367575, 
+      "node": "dander", 
+      "term": "animosity"
+    }, 
+    {
+      "tfidf": 1.1167961107535471, 
+      "node": "dander", 
+      "term": "anger"
+    }, 
+    {
+      "tfidf": 1.2066288608756617, 
+      "node": "pique", 
+      "term": "outburst"
+    }, 
+    {
+      "tfidf": 0.9241962407465937, 
+      "node": "pique", 
+      "term": "sudden"
+    }, 
+    {
+      "tfidf": 0.7445307405023647, 
+      "node": "pique", 
+      "term": "anger"
+    }, 
+    {
+      "tfidf": 0.7239773165253971, 
+      "node": "displeasure", 
+      "term": "someone"
+    }, 
+    {
+      "tfidf": 0.7239773165253971, 
+      "node": "displeasure", 
+      "term": "dissatisfy"
+    }, 
+    {
+      "tfidf": 0.7239773165253971, 
+      "node": "displeasure", 
+      "term": "displease"
+    }, 
+    {
+      "tfidf": 0.7239773165253971, 
+      "node": "displeasure", 
+      "term": "annoy"
+    }, 
+    {
+      "tfidf": 0.40208973403857695, 
+      "node": "displeasure", 
+      "term": "something"
+    }, 
+    {
+      "tfidf": 1.2066288608756617, 
+      "node": "aggravation", 
+      "term": "exasperate"
+    }, 
+    {
+      "tfidf": 1.0363536529536646, 
+      "node": "aggravation", 
+      "term": "annoyance"
+    }, 
+    {
+      "tfidf": 0.5134816803157163, 
+      "node": "aggravation", 
+      "term": "feel"
+    }, 
+    {
+      "tfidf": 0.9049716456567463, 
+      "node": "harassment", 
+      "term": "torment"
+    }, 
+    {
+      "tfidf": 0.7772652397152485, 
+      "node": "harassment", 
+      "term": "annoyance"
+    }, 
+    {
+      "tfidf": 0.580150899624181, 
+      "node": "harassment", 
+      "term": "cause"
+    }, 
+    {
+      "tfidf": 0.45703177834973246, 
+      "node": "harassment", 
+      "term": "intense"
+    }, 
+    {
+      "tfidf": 1.2066288608756617, 
+      "node": "frustration", 
+      "term": "hinder"
+    }, 
+    {
+      "tfidf": 1.2066288608756617, 
+      "node": "frustration", 
+      "term": "criticize"
+    }, 
+    {
+      "tfidf": 1.0363536529536646, 
+      "node": "frustration", 
+      "term": "annoyance"
+    }, 
+    {
+      "tfidf": 0.4239628580264992, 
+      "node": "annoyance", 
+      "term": "annoyance"
+    }, 
+    {
+      "tfidf": 0.32908059842063503, 
+      "node": "annoyance", 
+      "term": "annoy"
+    }, 
+    {
+      "tfidf": 0.20305383831882676, 
+      "node": "annoyance", 
+      "term": "anger"
+    }, 
+    {
+      "tfidf": 0.18297053139705227, 
+      "node": "annoyance", 
+      "term": "produce"
+    }, 
+    {
+      "tfidf": 0.18297053139705227, 
+      "node": "annoyance", 
+      "term": "irritation"
+    }, 
+    {
+      "tfidf": 0.16454029921031751, 
+      "node": "annoyance", 
+      "term": "torment"
+    }, 
+    {
+      "tfidf": 0.16454029921031751, 
+      "node": "annoyance", 
+      "term": "someone"
+    }, 
+    {
+      "tfidf": 0.16454029921031751, 
+      "node": "annoyance", 
+      "term": "outburst"
+    }, 
+    {
+      "tfidf": 0.16454029921031751, 
+      "node": "annoyance", 
+      "term": "hinder"
+    }, 
+    {
+      "tfidf": 0.16454029921031751, 
+      "node": "annoyance", 
+      "term": "exasperate"
+    }, 
+    {
+      "tfidf": 0.16454029921031751, 
+      "node": "annoyance", 
+      "term": "dissatisfy"
+    }, 
+    {
+      "tfidf": 0.16454029921031751, 
+      "node": "annoyance", 
+      "term": "displease"
+    }, 
+    {
+      "tfidf": 0.16454029921031751, 
+      "node": "annoyance", 
+      "term": "criticize"
+    }, 
+    {
+      "tfidf": 0.12602676010180824, 
+      "node": "annoyance", 
+      "term": "sudden"
+    }, 
+    {
+      "tfidf": 0.10548198174985109, 
+      "node": "annoyance", 
+      "term": "cause"
+    }, 
+    {
+      "tfidf": 0.09138403046331293, 
+      "node": "annoyance", 
+      "term": "something"
+    }, 
+    {
+      "tfidf": 0.08309668697267864, 
+      "node": "annoyance", 
+      "term": "intense"
+    }, 
+    {
+      "tfidf": 0.07002022913396132, 
+      "node": "annoyance", 
+      "term": "feel"
+    }, 
+    {
+      "tfidf": 0.36616265926345803, 
+      "node": "anger", 
+      "term": "anger"
+    }, 
+    {
+      "tfidf": 0.1529046373210325, 
+      "node": "anger", 
+      "term": "annoyance"
+    }, 
+    {
+      "tfidf": 0.1498464847048303, 
+      "node": "anger", 
+      "term": "intense"
+    }, 
+    {
+      "tfidf": 0.11868480598777001, 
+      "node": "anger", 
+      "term": "annoy"
+    }, 
+    {
+      "tfidf": 0.07735244051303433, 
+      "node": "anger", 
+      "term": "suppose"
+    }, 
+    {
+      "tfidf": 0.07735244051303433, 
+      "node": "anger", 
+      "term": "real"
+    }, 
+    {
+      "tfidf": 0.07735244051303433, 
+      "node": "anger", 
+      "term": "orient"
+    }, 
+    {
+      "tfidf": 0.07735244051303433, 
+      "node": "anger", 
+      "term": "grievance"
+    }, 
+    {
+      "tfidf": 0.0760853638851385, 
+      "node": "anger", 
+      "term": "cause"
+    }, 
+    {
+      "tfidf": 0.06598937197926476, 
+      "node": "anger", 
+      "term": "righteous"
+    }, 
+    {
+      "tfidf": 0.06598937197926476, 
+      "node": "anger", 
+      "term": "resentment"
+    }, 
+    {
+      "tfidf": 0.06598937197926476, 
+      "node": "anger", 
+      "term": "produce"
+    }, 
+    {
+      "tfidf": 0.06598937197926476, 
+      "node": "anger", 
+      "term": "persisting"
+    }, 
+    {
+      "tfidf": 0.06598937197926476, 
+      "node": "anger", 
+      "term": "passing"
+    }, 
+    {
+      "tfidf": 0.06598937197926476, 
+      "node": "anger", 
+      "term": "offend"
+    }, 
+    {
+      "tfidf": 0.06598937197926476, 
+      "node": "anger", 
+      "term": "mood"
+    }, 
+    {
+      "tfidf": 0.06598937197926476, 
+      "node": "anger", 
+      "term": "irritation"
+    }, 
+    {
+      "tfidf": 0.06598937197926476, 
+      "node": "anger", 
+      "term": "animosity"
+    }, 
+    {
+      "tfidf": 0.06598937197926476, 
+      "node": "anger", 
+      "term": "angry"
+    }, 
+    {
+      "tfidf": 0.059342402993885005, 
+      "node": "anger", 
+      "term": "torment"
+    }, 
+    {
+      "tfidf": 0.059342402993885005, 
+      "node": "anger", 
+      "term": "temper"
+    }, 
+    {
+      "tfidf": 0.059342402993885005, 
+      "node": "anger", 
+      "term": "strong"
+    }, 
+    {
+      "tfidf": 0.059342402993885005, 
+      "node": "anger", 
+      "term": "someone"
+    }, 
+    {
+      "tfidf": 0.059342402993885005, 
+      "node": "anger", 
+      "term": "scale"
+    }, 
+    {
+      "tfidf": 0.059342402993885005, 
+      "node": "anger", 
+      "term": "resentful"
+    }, 
+    {
+      "tfidf": 0.059342402993885005, 
+      "node": "anger", 
+      "term": "outburst"
+    }, 
+    {
+      "tfidf": 0.059342402993885005, 
+      "node": "anger", 
+      "term": "indignation"
+    }, 
+    {
+      "tfidf": 0.059342402993885005, 
+      "node": "anger", 
+      "term": "hinder"
+    }, 
+    {
+      "tfidf": 0.059342402993885005, 
+      "node": "anger", 
+      "term": "fury"
+    }, 
+    {
+      "tfidf": 0.059342402993885005, 
+      "node": "anger", 
+      "term": "exasperate"
+    }, 
+    {
+      "tfidf": 0.059342402993885005, 
+      "node": "anger", 
+      "term": "epic"
+    }, 
+    {
+      "tfidf": 0.059342402993885005, 
+      "node": "anger", 
+      "term": "dissatisfy"
+    }, 
+    {
+      "tfidf": 0.059342402993885005, 
+      "node": "anger", 
+      "term": "displease"
+    }, 
+    {
+      "tfidf": 0.059342402993885005, 
+      "node": "anger", 
+      "term": "display"
+    }, 
+    {
+      "tfidf": 0.059342402993885005, 
+      "node": "anger", 
+      "term": "discolor"
+    }, 
+    {
+      "tfidf": 0.059342402993885005, 
+      "node": "anger", 
+      "term": "criticize"
+    }, 
+    {
+      "tfidf": 0.059342402993885005, 
+      "node": "anger", 
+      "term": "become"
+    }, 
+    {
+      "tfidf": 0.05096821244034417, 
+      "node": "anger", 
+      "term": "face"
+    }, 
+    {
+      "tfidf": 0.04797933446011541, 
+      "node": "anger", 
+      "term": "bad"
+    }, 
+    {
+      "tfidf": 0.04545227413507838, 
+      "node": "anger", 
+      "term": "usually"
+    }, 
+    {
+      "tfidf": 0.04545227413507838, 
+      "node": "anger", 
+      "term": "sudden"
+    }, 
+    {
+      "tfidf": 0.041332365474735656, 
+      "node": "anger", 
+      "term": "great"
+    }, 
+    {
+      "tfidf": 0.03295817492119483, 
+      "node": "anger", 
+      "term": "something"
+    }, 
+    {
+      "tfidf": 0.025253197392576216, 
+      "node": "anger", 
+      "term": "feel"
+    }, 
+    {
+      "tfidf": 2.012675845367575, 
+      "node": "repugnance", 
+      "term": "aversion"
+    }, 
+    {
+      "tfidf": 0.9140635566994649, 
+      "node": "repugnance", 
+      "term": "intense"
+    }, 
+    {
+      "tfidf": 1.3417838969117164, 
+      "node": "abhorrence", 
+      "term": "hate"
+    }, 
+    {
+      "tfidf": 1.3417838969117164, 
+      "node": "abhorrence", 
+      "term": "couple"
+    }, 
+    {
+      "tfidf": 1.2066288608756617, 
+      "node": "abhorrence", 
+      "term": "disgust"
+    }, 
+    {
+      "tfidf": 0.6708919484558582, 
+      "node": "nausea", 
+      "term": "so"
+    }, 
+    {
+      "tfidf": 0.6708919484558582, 
+      "node": "nausea", 
+      "term": "sick"
+    }, 
+    {
+      "tfidf": 0.6033144304378308, 
+      "node": "nausea", 
+      "term": "strong"
+    }, 
+    {
+      "tfidf": 0.6033144304378308, 
+      "node": "nausea", 
+      "term": "disgust"
+    }, 
+    {
+      "tfidf": 0.5181768264768323, 
+      "node": "nausea", 
+      "term": "make"
+    }, 
+    {
+      "tfidf": 0.25674084015785814, 
+      "node": "nausea", 
+      "term": "feel"
+    }, 
+    {
+      "tfidf": 0.5569056280964593, 
+      "node": "disgust", 
+      "term": "strong"
+    }, 
+    {
+      "tfidf": 0.5569056280964593, 
+      "node": "disgust", 
+      "term": "disgust"
+    }, 
+    {
+      "tfidf": 0.3629614516380842, 
+      "node": "disgust", 
+      "term": "dislike"
+    }, 
+    {
+      "tfidf": 0.3096424377488577, 
+      "node": "disgust", 
+      "term": "so"
+    }, 
+    {
+      "tfidf": 0.3096424377488577, 
+      "node": "disgust", 
+      "term": "sick"
+    }, 
+    {
+      "tfidf": 0.3096424377488577, 
+      "node": "disgust", 
+      "term": "hate"
+    }, 
+    {
+      "tfidf": 0.3096424377488577, 
+      "node": "disgust", 
+      "term": "couple"
+    }, 
+    {
+      "tfidf": 0.3096424377488577, 
+      "node": "disgust", 
+      "term": "aversion"
+    }, 
+    {
+      "tfidf": 0.23915853529699957, 
+      "node": "disgust", 
+      "term": "make"
+    }, 
+    {
+      "tfidf": 0.14062516256914845, 
+      "node": "disgust", 
+      "term": "intense"
+    }, 
+    {
+      "tfidf": 0.11849577238054994, 
+      "node": "disgust", 
+      "term": "feel"
+    }, 
+    {
+      "tfidf": 1.3417838969117164, 
+      "node": "horror", 
+      "term": "profound"
+    }, 
+    {
+      "tfidf": 0.7178498379445193, 
+      "node": "horror", 
+      "term": "fear"
+    }, 
+    {
+      "tfidf": 0.60937570446631, 
+      "node": "horror", 
+      "term": "intense"
+    }, 
+    {
+      "tfidf": 1.3417838969117164, 
+      "node": "hysteria", 
+      "term": "uncontrollable"
+    }, 
+    {
+      "tfidf": 0.9241962407465937, 
+      "node": "hysteria", 
+      "term": "excessive"
+    }, 
+    {
+      "tfidf": 0.7178498379445193, 
+      "node": "hysteria", 
+      "term": "fear"
+    }, 
+    {
+      "tfidf": 0.80507033814703, 
+      "node": "intimidation", 
+      "term": "timid"
+    }, 
+    {
+      "tfidf": 0.80507033814703, 
+      "node": "intimidation", 
+      "term": "intimidate"
+    }, 
+    {
+      "tfidf": 0.80507033814703, 
+      "node": "intimidation", 
+      "term": "afraid"
+    }, 
+    {
+      "tfidf": 0.6218121917721988, 
+      "node": "intimidation", 
+      "term": "make"
+    }, 
+    {
+      "tfidf": 0.30808900818942986, 
+      "node": "intimidation", 
+      "term": "feel"
+    }, 
+    {
+      "tfidf": 1.8099432913134925, 
+      "node": "trepidation", 
+      "term": "alarm"
+    }, 
+    {
+      "tfidf": 1.666102255087602, 
+      "node": "trepidation", 
+      "term": "dread"
+    }, 
+    {
+      "tfidf": 1.3862943611198906, 
+      "node": "gloom", 
+      "term": "melancholy"
+    }, 
+    {
+      "tfidf": 1.3862943611198906, 
+      "node": "gloom", 
+      "term": "apprehension"
+    }, 
+    {
+      "tfidf": 1.666102255087602, 
+      "node": "presage", 
+      "term": "foreboding"
+    }, 
+    {
+      "tfidf": 1.554530479430497, 
+      "node": "presage", 
+      "term": "happen"
+    }, 
+    {
+      "tfidf": 1.1107348367250678, 
+      "node": "shadow", 
+      "term": "premonition"
+    }, 
+    {
+      "tfidf": 1.1107348367250678, 
+      "node": "shadow", 
+      "term": "adverse"
+    }, 
+    {
+      "tfidf": 0.6701495567309614, 
+      "node": "shadow", 
+      "term": "something"
+    }, 
+    {
+      "tfidf": 0.5171266546609978, 
+      "node": "foreboding", 
+      "term": "come"
+    }, 
+    {
+      "tfidf": 0.4760292157393148, 
+      "node": "foreboding", 
+      "term": "premonition"
+    }, 
+    {
+      "tfidf": 0.4760292157393148, 
+      "node": "foreboding", 
+      "term": "foreboding"
+    }, 
+    {
+      "tfidf": 0.4760292157393148, 
+      "node": "foreboding", 
+      "term": "adverse"
+    }, 
+    {
+      "tfidf": 0.44415156555157054, 
+      "node": "foreboding", 
+      "term": "happen"
+    }, 
+    {
+      "tfidf": 0.4181056288667199, 
+      "node": "foreboding", 
+      "term": "evil"
+    }, 
+    {
+      "tfidf": 0.2872069528846978, 
+      "node": "foreboding", 
+      "term": "something"
+    }, 
+    {
+      "tfidf": 1.2066288608756617, 
+      "node": "chill", 
+      "term": "numbing"
+    }, 
+    {
+      "tfidf": 1.1107348367250678, 
+      "node": "chill", 
+      "term": "dread"
+    }, 
+    {
+      "tfidf": 0.9241962407465937, 
+      "node": "chill", 
+      "term": "sudden"
+    }, 
+    {
+      "tfidf": 1.2066288608756617, 
+      "node": "suspense", 
+      "term": "go"
+    }, 
+    {
+      "tfidf": 1.0363536529536646, 
+      "node": "suspense", 
+      "term": "happen"
+    }, 
+    {
+      "tfidf": 0.9241962407465937, 
+      "node": "suspense", 
+      "term": "apprehension"
+    }, 
+    {
+      "tfidf": 0.3332204510175204, 
+      "node": "apprehension", 
+      "term": "dread"
+    }, 
+    {
+      "tfidf": 0.3109060958860994, 
+      "node": "apprehension", 
+      "term": "happen"
+    }, 
+    {
+      "tfidf": 0.2772588722239781, 
+      "node": "apprehension", 
+      "term": "apprehension"
+    }, 
+    {
+      "tfidf": 0.2012675845367575, 
+      "node": "apprehension", 
+      "term": "fearful"
+    }, 
+    {
+      "tfidf": 0.2012675845367575, 
+      "node": "apprehension", 
+      "term": "anticipation"
+    }, 
+    {
+      "tfidf": 0.18099432913134927, 
+      "node": "apprehension", 
+      "term": "numbing"
+    }, 
+    {
+      "tfidf": 0.18099432913134927, 
+      "node": "apprehension", 
+      "term": "go"
+    }, 
+    {
+      "tfidf": 0.18099432913134927, 
+      "node": "apprehension", 
+      "term": "come"
+    }, 
+    {
+      "tfidf": 0.18099432913134927, 
+      "node": "apprehension", 
+      "term": "alarm"
+    }, 
+    {
+      "tfidf": 0.1666102255087602, 
+      "node": "apprehension", 
+      "term": "premonition"
+    }, 
+    {
+      "tfidf": 0.1666102255087602, 
+      "node": "apprehension", 
+      "term": "foreboding"
+    }, 
+    {
+      "tfidf": 0.1666102255087602, 
+      "node": "apprehension", 
+      "term": "adverse"
+    }, 
+    {
+      "tfidf": 0.1554530479430497, 
+      "node": "apprehension", 
+      "term": "expectation"
+    }, 
+    {
+      "tfidf": 0.14633697010335198, 
+      "node": "apprehension", 
+      "term": "evil"
+    }, 
+    {
+      "tfidf": 0.13862943611198905, 
+      "node": "apprehension", 
+      "term": "sudden"
+    }, 
+    {
+      "tfidf": 0.13862943611198905, 
+      "node": "apprehension", 
+      "term": "melancholy"
+    }, 
+    {
+      "tfidf": 0.10052243350964424, 
+      "node": "apprehension", 
+      "term": "something"
+    }, 
+    {
+      "tfidf": 1.0063379226837874, 
+      "node": "alarm", 
+      "term": "danger"
+    }, 
+    {
+      "tfidf": 1.0063379226837874, 
+      "node": "alarm", 
+      "term": "awareness"
+    }, 
+    {
+      "tfidf": 0.7316848505167599, 
+      "node": "alarm", 
+      "term": "result"
+    }, 
+    {
+      "tfidf": 0.5383873784583895, 
+      "node": "alarm", 
+      "term": "fear"
+    }, 
+    {
+      "tfidf": 1.8099432913134925, 
+      "node": "shyness", 
+      "term": "embarrassment"
+    }, 
+    {
+      "tfidf": 1.076774756916779, 
+      "node": "shyness", 
+      "term": "fear"
+    }, 
+    {
+      "tfidf": 1.1107348367250678, 
+      "node": "hesitance", 
+      "term": "indecision"
+    }, 
+    {
+      "tfidf": 1.0363536529536646, 
+      "node": "hesitance", 
+      "term": "diffidence"
+    }, 
+    {
+      "tfidf": 0.6701495567309614, 
+      "node": "hesitance", 
+      "term": "something"
+    }, 
+    {
+      "tfidf": 1.666102255087602, 
+      "node": "unassertiveness", 
+      "term": "promotion"
+    }, 
+    {
+      "tfidf": 1.554530479430497, 
+      "node": "unassertiveness", 
+      "term": "diffidence"
+    }, 
+    {
+      "tfidf": 0.8883031311031411, 
+      "node": "diffidence", 
+      "term": "diffidence"
+    }, 
+    {
+      "tfidf": 0.5171266546609978, 
+      "node": "diffidence", 
+      "term": "self-confidence"
+    }, 
+    {
+      "tfidf": 0.5171266546609978, 
+      "node": "diffidence", 
+      "term": "lack"
+    }, 
+    {
+      "tfidf": 0.4760292157393148, 
+      "node": "diffidence", 
+      "term": "promotion"
+    }, 
+    {
+      "tfidf": 0.4760292157393148, 
+      "node": "diffidence", 
+      "term": "indecision"
+    }, 
+    {
+      "tfidf": 0.2872069528846978, 
+      "node": "diffidence", 
+      "term": "something"
+    }, 
+    {
+      "tfidf": 0.7239773165253971, 
+      "node": "cold_feet", 
+      "term": "timidity"
+    }, 
+    {
+      "tfidf": 0.7239773165253971, 
+      "node": "cold_feet", 
+      "term": "prevents"
+    }, 
+    {
+      "tfidf": 0.7239773165253971, 
+      "node": "cold_feet", 
+      "term": "course"
+    }, 
+    {
+      "tfidf": 0.7239773165253971, 
+      "node": "cold_feet", 
+      "term": "continuation"
+    }, 
+    {
+      "tfidf": 0.7239773165253971, 
+      "node": "cold_feet", 
+      "term": "action"
+    }, 
+    {
+      "tfidf": 0.32303242707503366, 
+      "node": "timidity", 
+      "term": "fear"
+    }, 
+    {
+      "tfidf": 0.3109060958860994, 
+      "node": "timidity", 
+      "term": "diffidence"
+    }, 
+    {
+      "tfidf": 0.2012675845367575, 
+      "node": "timidity", 
+      "term": "unknown"
+    }, 
+    {
+      "tfidf": 0.2012675845367575, 
+      "node": "timidity", 
+      "term": "unfamiliar"
+    }, 
+    {
+      "tfidf": 0.2012675845367575, 
+      "node": "timidity", 
+      "term": "decision"
+    }, 
+    {
+      "tfidf": 0.18099432913134927, 
+      "node": "timidity", 
+      "term": "timidity"
+    }, 
+    {
+      "tfidf": 0.18099432913134927, 
+      "node": "timidity", 
+      "term": "self-confidence"
+    }, 
+    {
+      "tfidf": 0.18099432913134927, 
+      "node": "timidity", 
+      "term": "prevents"
+    }, 
+    {
+      "tfidf": 0.18099432913134927, 
+      "node": "timidity", 
+      "term": "lack"
+    }, 
+    {
+      "tfidf": 0.18099432913134927, 
+      "node": "timidity", 
+      "term": "embarrassment"
+    }, 
+    {
+      "tfidf": 0.18099432913134927, 
+      "node": "timidity", 
+      "term": "course"
+    }, 
+    {
+      "tfidf": 0.18099432913134927, 
+      "node": "timidity", 
+      "term": "continuation"
+    }, 
+    {
+      "tfidf": 0.18099432913134927, 
+      "node": "timidity", 
+      "term": "action"
+    }, 
+    {
+      "tfidf": 0.1666102255087602, 
+      "node": "timidity", 
+      "term": "promotion"
+    }, 
+    {
+      "tfidf": 0.1666102255087602, 
+      "node": "timidity", 
+      "term": "indecision"
+    }, 
+    {
+      "tfidf": 0.1554530479430497, 
+      "node": "timidity", 
+      "term": "make"
+    }, 
+    {
+      "tfidf": 0.10052243350964424, 
+      "node": "timidity", 
+      "term": "something"
+    }, 
+    {
+      "tfidf": 1.2066288608756617, 
+      "node": "swivet", 
+      "term": "panic"
+    }, 
+    {
+      "tfidf": 1.2066288608756617, 
+      "node": "swivet", 
+      "term": "extreme"
+    }, 
+    {
+      "tfidf": 1.2066288608756617, 
+      "node": "swivet", 
+      "term": "discomposure"
+    }, 
+    {
+      "tfidf": 0.5750502415335927, 
+      "node": "panic", 
+      "term": "anxiety"
+    }, 
+    {
+      "tfidf": 0.5171266546609978, 
+      "node": "panic", 
+      "term": "panic"
+    }, 
+    {
+      "tfidf": 0.5171266546609978, 
+      "node": "panic", 
+      "term": "extreme"
+    }, 
+    {
+      "tfidf": 0.5171266546609978, 
+      "node": "panic", 
+      "term": "discomposure"
+    }, 
+    {
+      "tfidf": 0.44415156555157054, 
+      "node": "panic", 
+      "term": "overwhelming"
+    }, 
+    {
+      "tfidf": 0.3076499305476511, 
+      "node": "panic", 
+      "term": "fear"
+    }, 
+    {
+      "tfidf": 0.22006357727816414, 
+      "node": "panic", 
+      "term": "feel"
+    }, 
+    {
+      "tfidf": 1.3417838969117164, 
+      "node": "scare", 
+      "term": "attack"
+    }, 
+    {
+      "tfidf": 0.9241962407465937, 
+      "node": "scare", 
+      "term": "sudden"
+    }, 
+    {
+      "tfidf": 0.7178498379445193, 
+      "node": "scare", 
+      "term": "fear"
+    }, 
+    {
+      "tfidf": 1.0063379226837874, 
+      "node": "frisson", 
+      "term": "sensation"
+    }, 
+    {
+      "tfidf": 1.0063379226837874, 
+      "node": "frisson", 
+      "term": "pleasurable"
+    }, 
+    {
+      "tfidf": 1.0063379226837874, 
+      "node": "frisson", 
+      "term": "fright"
+    }, 
+    {
+      "tfidf": 1.0063379226837874, 
+      "node": "frisson", 
+      "term": "almost"
+    }, 
+    {
+      "tfidf": 2.012675845367575, 
+      "node": "creeps", 
+      "term": "revulsion"
+    }, 
+    {
+      "tfidf": 1.076774756916779, 
+      "node": "creeps", 
+      "term": "fear"
+    }, 
+    {
+      "tfidf": 0.80507033814703, 
+      "node": "stage_fright", 
+      "term": "person"
+    }, 
+    {
+      "tfidf": 0.80507033814703, 
+      "node": "stage_fright", 
+      "term": "audience"
+    }, 
+    {
+      "tfidf": 0.80507033814703, 
+      "node": "stage_fright", 
+      "term": "affect"
+    }, 
+    {
+      "tfidf": 0.6218121917721988, 
+      "node": "stage_fright", 
+      "term": "face"
+    }, 
+    {
+      "tfidf": 0.4307099027667116, 
+      "node": "stage_fright", 
+      "term": "fear"
+    }, 
+    {
+      "tfidf": 0.2504127341666928, 
+      "node": "fear", 
+      "term": "fear"
+    }, 
+    {
+      "tfidf": 0.0936128300170965, 
+      "node": "fear", 
+      "term": "danger"
+    }, 
+    {
+      "tfidf": 0.0936128300170965, 
+      "node": "fear", 
+      "term": "anticipation"
+    }, 
+    {
+      "tfidf": 0.0774931281436094, 
+      "node": "fear", 
+      "term": "dread"
+    }, 
+    {
+      "tfidf": 0.07230374322932544, 
+      "node": "fear", 
+      "term": "make"
+    }, 
+    {
+      "tfidf": 0.07230374322932544, 
+      "node": "fear", 
+      "term": "happen"
+    }, 
+    {
+      "tfidf": 0.07230374322932544, 
+      "node": "fear", 
+      "term": "diffidence"
+    }, 
+    {
+      "tfidf": 0.0644788074939484, 
+      "node": "fear", 
+      "term": "sudden"
+    }, 
+    {
+      "tfidf": 0.0644788074939484, 
+      "node": "fear", 
+      "term": "apprehension"
+    }, 
+    {
+      "tfidf": 0.054866265945291794, 
+      "node": "fear", 
+      "term": "specific"
+    }, 
+    {
+      "tfidf": 0.054866265945291794, 
+      "node": "fear", 
+      "term": "pain"
+    }, 
+    {
+      "tfidf": 0.054866265945291794, 
+      "node": "fear", 
+      "term": "flee"
+    }, 
+    {
+      "tfidf": 0.054866265945291794, 
+      "node": "fear", 
+      "term": "fight"
+    }, 
+    {
+      "tfidf": 0.054866265945291794, 
+      "node": "fear", 
+      "term": "accompany"
+    }, 
+    {
+      "tfidf": 0.04680641500854825, 
+      "node": "fear", 
+      "term": "unknown"
+    }, 
+    {
+      "tfidf": 0.04680641500854825, 
+      "node": "fear", 
+      "term": "unfamiliar"
+    }, 
+    {
+      "tfidf": 0.04680641500854825, 
+      "node": "fear", 
+      "term": "uncontrollable"
+    }, 
+    {
+      "tfidf": 0.04680641500854825, 
+      "node": "fear", 
+      "term": "timid"
+    }, 
+    {
+      "tfidf": 0.04680641500854825, 
+      "node": "fear", 
+      "term": "sensation"
+    }, 
+    {
+      "tfidf": 0.04680641500854825, 
+      "node": "fear", 
+      "term": "revulsion"
+    }, 
+    {
+      "tfidf": 0.04680641500854825, 
+      "node": "fear", 
+      "term": "profound"
+    }, 
+    {
+      "tfidf": 0.04680641500854825, 
+      "node": "fear", 
+      "term": "pleasurable"
+    }, 
+    {
+      "tfidf": 0.04680641500854825, 
+      "node": "fear", 
+      "term": "person"
+    }, 
+    {
+      "tfidf": 0.04680641500854825, 
+      "node": "fear", 
+      "term": "intimidate"
+    }, 
+    {
+      "tfidf": 0.04680641500854825, 
+      "node": "fear", 
+      "term": "fright"
+    }, 
+    {
+      "tfidf": 0.04680641500854825, 
+      "node": "fear", 
+      "term": "fearful"
+    }, 
+    {
+      "tfidf": 0.04680641500854825, 
+      "node": "fear", 
+      "term": "decision"
+    }, 
+    {
+      "tfidf": 0.04680641500854825, 
+      "node": "fear", 
+      "term": "awareness"
+    }, 
+    {
+      "tfidf": 0.04680641500854825, 
+      "node": "fear", 
+      "term": "audience"
+    }, 
+    {
+      "tfidf": 0.04680641500854825, 
+      "node": "fear", 
+      "term": "attack"
+    }, 
+    {
+      "tfidf": 0.04680641500854825, 
+      "node": "fear", 
+      "term": "anxiety"
+    }, 
+    {
+      "tfidf": 0.04680641500854825, 
+      "node": "fear", 
+      "term": "almost"
+    }, 
+    {
+      "tfidf": 0.04680641500854825, 
+      "node": "fear", 
+      "term": "afraid"
+    }, 
+    {
+      "tfidf": 0.04680641500854825, 
+      "node": "fear", 
+      "term": "affect"
+    }, 
+    {
+      "tfidf": 0.046754620237043826, 
+      "node": "fear", 
+      "term": "something"
+    }, 
+    {
+      "tfidf": 0.04209170444915099, 
+      "node": "fear", 
+      "term": "timidity"
+    }, 
+    {
+      "tfidf": 0.04209170444915099, 
+      "node": "fear", 
+      "term": "self-confidence"
+    }, 
+    {
+      "tfidf": 0.04209170444915099, 
+      "node": "fear", 
+      "term": "prevents"
+    }, 
+    {
+      "tfidf": 0.04209170444915099, 
+      "node": "fear", 
+      "term": "panic"
+    }, 
+    {
+      "tfidf": 0.04209170444915099, 
+      "node": "fear", 
+      "term": "numbing"
+    }, 
+    {
+      "tfidf": 0.04209170444915099, 
+      "node": "fear", 
+      "term": "lack"
+    }, 
+    {
+      "tfidf": 0.04209170444915099, 
+      "node": "fear", 
+      "term": "go"
+    }, 
+    {
+      "tfidf": 0.04209170444915099, 
+      "node": "fear", 
+      "term": "extreme"
+    }, 
+    {
+      "tfidf": 0.04209170444915099, 
+      "node": "fear", 
+      "term": "embarrassment"
+    }, 
+    {
+      "tfidf": 0.04209170444915099, 
+      "node": "fear", 
+      "term": "discomposure"
+    }, 
+    {
+      "tfidf": 0.04209170444915099, 
+      "node": "fear", 
+      "term": "course"
+    }, 
+    {
+      "tfidf": 0.04209170444915099, 
+      "node": "fear", 
+      "term": "continuation"
+    }, 
+    {
+      "tfidf": 0.04209170444915099, 
+      "node": "fear", 
+      "term": "come"
+    }, 
+    {
+      "tfidf": 0.04209170444915099, 
+      "node": "fear", 
+      "term": "alarm"
+    }, 
+    {
+      "tfidf": 0.04209170444915099, 
+      "node": "fear", 
+      "term": "action"
+    }, 
+    {
+      "tfidf": 0.0387465640718047, 
+      "node": "fear", 
+      "term": "promotion"
+    }, 
+    {
+      "tfidf": 0.0387465640718047, 
+      "node": "fear", 
+      "term": "premonition"
+    }, 
+    {
+      "tfidf": 0.0387465640718047, 
+      "node": "fear", 
+      "term": "indecision"
+    }, 
+    {
+      "tfidf": 0.0387465640718047, 
+      "node": "fear", 
+      "term": "foreboding"
+    }, 
+    {
+      "tfidf": 0.0387465640718047, 
+      "node": "fear", 
+      "term": "adverse"
+    }, 
+    {
+      "tfidf": 0.03615187161466272, 
+      "node": "fear", 
+      "term": "overwhelming"
+    }, 
+    {
+      "tfidf": 0.03615187161466272, 
+      "node": "fear", 
+      "term": "face"
+    }, 
+    {
+      "tfidf": 0.03615187161466272, 
+      "node": "fear", 
+      "term": "expectation"
+    }, 
+    {
+      "tfidf": 0.03615187161466272, 
+      "node": "fear", 
+      "term": "desire"
+    }, 
+    {
+      "tfidf": 0.035824303277840676, 
+      "node": "fear", 
+      "term": "feel"
+    }, 
+    {
+      "tfidf": 0.03403185351240744, 
+      "node": "fear", 
+      "term": "result"
+    }, 
+    {
+      "tfidf": 0.03403185351240744, 
+      "node": "fear", 
+      "term": "evil"
+    }, 
+    {
+      "tfidf": 0.0322394037469742, 
+      "node": "fear", 
+      "term": "usually"
+    }, 
+    {
+      "tfidf": 0.0322394037469742, 
+      "node": "fear", 
+      "term": "melancholy"
+    }, 
+    {
+      "tfidf": 0.0322394037469742, 
+      "node": "fear", 
+      "term": "excessive"
+    }, 
+    {
+      "tfidf": 0.030686713135061144, 
+      "node": "fear", 
+      "term": "experience"
+    }, 
+    {
+      "tfidf": 0.021257292016266627, 
+      "node": "fear", 
+      "term": "intense"
+    }, 
+    {
+      "tfidf": 1.8099432913134925, 
+      "node": "joylessness", 
+      "term": "dismal"
+    }, 
+    {
+      "tfidf": 1.8099432913134925, 
+      "node": "joylessness", 
+      "term": "cheerlessness"
+    }, 
+    {
+      "tfidf": 0.80507033814703, 
+      "node": "cheerlessness", 
+      "term": "pessimistic"
+    }, 
+    {
+      "tfidf": 0.80507033814703, 
+      "node": "cheerlessness", 
+      "term": "dreary"
+    }, 
+    {
+      "tfidf": 0.7239773165253971, 
+      "node": "cheerlessness", 
+      "term": "dismal"
+    }, 
+    {
+      "tfidf": 0.7239773165253971, 
+      "node": "cheerlessness", 
+      "term": "cheerlessness"
+    }, 
+    {
+      "tfidf": 0.48318275566020974, 
+      "node": "cheerlessness", 
+      "term": "sadness"
+    }, 
+    {
+      "tfidf": 0.7239773165253971, 
+      "node": "attrition", 
+      "term": "sin"
+    }, 
+    {
+      "tfidf": 0.7239773165253971, 
+      "node": "attrition", 
+      "term": "damnation"
+    }, 
+    {
+      "tfidf": 0.7239773165253971, 
+      "node": "attrition", 
+      "term": "arise"
+    }, 
+    {
+      "tfidf": 0.5278114659230517, 
+      "node": "attrition", 
+      "term": "sorrow"
+    }, 
+    {
+      "tfidf": 0.4307099027667116, 
+      "node": "attrition", 
+      "term": "fear"
+    }, 
+    {
+      "tfidf": 1.1107348367250678, 
+      "node": "repentance", 
+      "term": "past"
+    }, 
+    {
+      "tfidf": 1.1107348367250678, 
+      "node": "repentance", 
+      "term": "conduct"
+    }, 
+    {
+      "tfidf": 1.0363536529536646, 
+      "node": "repentance", 
+      "term": "remorse"
+    }, 
+    {
+      "tfidf": 0.2826419053509995, 
+      "node": "survivor_guilt", 
+      "term": "part"
+    }, 
+    {
+      "tfidf": 0.2826419053509995, 
+      "node": "survivor_guilt", 
+      "term": "others"
+    }, 
+    {
+      "tfidf": 0.14132095267549974, 
+      "node": "survivor_guilt", 
+      "term": "unworthy"
+    }, 
+    {
+      "tfidf": 0.14132095267549974, 
+      "node": "survivor_guilt", 
+      "term": "took"
+    }, 
+    {
+      "tfidf": 0.14132095267549974, 
+      "node": "survivor_guilt", 
+      "term": "survive"
+    }, 
+    {
+      "tfidf": 0.14132095267549974, 
+      "node": "survivor_guilt", 
+      "term": "save"
+    }, 
+    {
+      "tfidf": 0.14132095267549974, 
+      "node": "survivor_guilt", 
+      "term": "relative"
+    }, 
+    {
+      "tfidf": 0.14132095267549974, 
+      "node": "survivor_guilt", 
+      "term": "perish"
+    }, 
+    {
+      "tfidf": 0.14132095267549974, 
+      "node": "survivor_guilt", 
+      "term": "not"
+    }, 
+    {
+      "tfidf": 0.14132095267549974, 
+      "node": "survivor_guilt", 
+      "term": "many"
+    }, 
+    {
+      "tfidf": 0.14132095267549974, 
+      "node": "survivor_guilt", 
+      "term": "guilt"
+    }, 
+    {
+      "tfidf": 0.14132095267549974, 
+      "node": "survivor_guilt", 
+      "term": "enough"
+    }, 
+    {
+      "tfidf": 0.14132095267549974, 
+      "node": "survivor_guilt", 
+      "term": "die"
+    }, 
+    {
+      "tfidf": 0.14132095267549974, 
+      "node": "survivor_guilt", 
+      "term": "derives"
+    }, 
+    {
+      "tfidf": 0.14132095267549974, 
+      "node": "survivor_guilt", 
+      "term": "deep"
+    }, 
+    {
+      "tfidf": 0.14132095267549974, 
+      "node": "survivor_guilt", 
+      "term": "catastrophe"
+    }, 
+    {
+      "tfidf": 0.12602676010180824, 
+      "node": "survivor_guilt", 
+      "term": "often"
+    }, 
+    {
+      "tfidf": 0.12602676010180824, 
+      "node": "survivor_guilt", 
+      "term": "life"
+    }, 
+    {
+      "tfidf": 0.11995715134614811, 
+      "node": "survivor_guilt", 
+      "term": "experience"
+    }, 
+    {
+      "tfidf": 0.07002022913396132, 
+      "node": "survivor_guilt", 
+      "term": "feel"
+    }, 
+    {
+      "tfidf": 0.23915853529699957, 
+      "node": "guilt", 
+      "term": "part"
+    }, 
+    {
+      "tfidf": 0.23915853529699957, 
+      "node": "guilt", 
+      "term": "others"
+    }, 
+    {
+      "tfidf": 0.12816171192981554, 
+      "node": "guilt", 
+      "term": "responsible"
+    }, 
+    {
+      "tfidf": 0.12816171192981554, 
+      "node": "guilt", 
+      "term": "offense"
+    }, 
+    {
+      "tfidf": 0.11957926764849978, 
+      "node": "guilt", 
+      "term": "unworthy"
+    }, 
+    {
+      "tfidf": 0.11957926764849978, 
+      "node": "guilt", 
+      "term": "took"
+    }, 
+    {
+      "tfidf": 0.11957926764849978, 
+      "node": "guilt", 
+      "term": "survive"
+    }, 
+    {
+      "tfidf": 0.11957926764849978, 
+      "node": "guilt", 
+      "term": "save"
+    }, 
+    {
+      "tfidf": 0.11957926764849978, 
+      "node": "guilt", 
+      "term": "remorse"
+    }, 
+    {
+      "tfidf": 0.11957926764849978, 
+      "node": "guilt", 
+      "term": "relative"
+    }, 
+    {
+      "tfidf": 0.11957926764849978, 
+      "node": "guilt", 
+      "term": "perish"
+    }, 
+    {
+      "tfidf": 0.11957926764849978, 
+      "node": "guilt", 
+      "term": "not"
+    }, 
+    {
+      "tfidf": 0.11957926764849978, 
+      "node": "guilt", 
+      "term": "many"
+    }, 
+    {
+      "tfidf": 0.11957926764849978, 
+      "node": "guilt", 
+      "term": "guilt"
+    }, 
+    {
+      "tfidf": 0.11957926764849978, 
+      "node": "guilt", 
+      "term": "enough"
+    }, 
+    {
+      "tfidf": 0.11957926764849978, 
+      "node": "guilt", 
+      "term": "die"
+    }, 
+    {
+      "tfidf": 0.11957926764849978, 
+      "node": "guilt", 
+      "term": "derives"
+    }, 
+    {
+      "tfidf": 0.11957926764849978, 
+      "node": "guilt", 
+      "term": "deep"
+    }, 
+    {
+      "tfidf": 0.11957926764849978, 
+      "node": "guilt", 
+      "term": "catastrophe"
+    }, 
+    {
+      "tfidf": 0.10663802777845313, 
+      "node": "guilt", 
+      "term": "often"
+    }, 
+    {
+      "tfidf": 0.10663802777845313, 
+      "node": "guilt", 
+      "term": "life"
+    }, 
+    {
+      "tfidf": 0.10150220498520225, 
+      "node": "guilt", 
+      "term": "experience"
+    }, 
+    {
+      "tfidf": 0.08925398455756631, 
+      "node": "guilt", 
+      "term": "cause"
+    }, 
+    {
+      "tfidf": 0.05924788619027497, 
+      "node": "guilt", 
+      "term": "feel"
+    }, 
+    {
+      "tfidf": 0.1884279369006663, 
+      "node": "compunction", 
+      "term": "remorse"
+    }, 
+    {
+      "tfidf": 0.1884279369006663, 
+      "node": "compunction", 
+      "term": "part"
+    }, 
+    {
+      "tfidf": 0.1884279369006663, 
+      "node": "compunction", 
+      "term": "others"
+    }, 
+    {
+      "tfidf": 0.1884279369006663, 
+      "node": "compunction", 
+      "term": "deep"
+    }, 
+    {
+      "tfidf": 0.10969353280687834, 
+      "node": "compunction", 
+      "term": "regret"
+    }, 
+    {
+      "tfidf": 0.10969353280687834, 
+      "node": "compunction", 
+      "term": "misdeed"
+    }, 
+    {
+      "tfidf": 0.10097589424773346, 
+      "node": "compunction", 
+      "term": "responsible"
+    }, 
+    {
+      "tfidf": 0.10097589424773346, 
+      "node": "compunction", 
+      "term": "past"
+    }, 
+    {
+      "tfidf": 0.10097589424773346, 
+      "node": "compunction", 
+      "term": "offense"
+    }, 
+    {
+      "tfidf": 0.10097589424773346, 
+      "node": "compunction", 
+      "term": "conduct"
+    }, 
+    {
+      "tfidf": 0.09421396845033315, 
+      "node": "compunction", 
+      "term": "unworthy"
+    }, 
+    {
+      "tfidf": 0.09421396845033315, 
+      "node": "compunction", 
+      "term": "took"
+    }, 
+    {
+      "tfidf": 0.09421396845033315, 
+      "node": "compunction", 
+      "term": "survive"
+    }, 
+    {
+      "tfidf": 0.09421396845033315, 
+      "node": "compunction", 
+      "term": "save"
+    }, 
+    {
+      "tfidf": 0.09421396845033315, 
+      "node": "compunction", 
+      "term": "relative"
+    }, 
+    {
+      "tfidf": 0.09421396845033315, 
+      "node": "compunction", 
+      "term": "perish"
+    }, 
+    {
+      "tfidf": 0.09421396845033315, 
+      "node": "compunction", 
+      "term": "not"
+    }, 
+    {
+      "tfidf": 0.09421396845033315, 
+      "node": "compunction", 
+      "term": "many"
+    }, 
+    {
+      "tfidf": 0.09421396845033315, 
+      "node": "compunction", 
+      "term": "guilt"
+    }, 
+    {
+      "tfidf": 0.09421396845033315, 
+      "node": "compunction", 
+      "term": "enough"
+    }, 
+    {
+      "tfidf": 0.09421396845033315, 
+      "node": "compunction", 
+      "term": "die"
+    }, 
+    {
+      "tfidf": 0.09421396845033315, 
+      "node": "compunction", 
+      "term": "derives"
+    }, 
+    {
+      "tfidf": 0.09421396845033315, 
+      "node": "compunction", 
+      "term": "catastrophe"
+    }, 
+    {
+      "tfidf": 0.08401784006787216, 
+      "node": "compunction", 
+      "term": "usually"
+    }, 
+    {
+      "tfidf": 0.08401784006787216, 
+      "node": "compunction", 
+      "term": "often"
+    }, 
+    {
+      "tfidf": 0.08401784006787216, 
+      "node": "compunction", 
+      "term": "life"
+    }, 
+    {
+      "tfidf": 0.07997143423076541, 
+      "node": "compunction", 
+      "term": "experience"
+    }, 
+    {
+      "tfidf": 0.07032132116656739, 
+      "node": "compunction", 
+      "term": "cause"
+    }, 
+    {
+      "tfidf": 0.046680152755974216, 
+      "node": "compunction", 
+      "term": "feel"
+    }, 
+    {
+      "tfidf": 0.14460748645865087, 
+      "node": "sorrow", 
+      "term": "remorse"
+    }, 
+    {
+      "tfidf": 0.14460748645865087, 
+      "node": "sorrow", 
+      "term": "part"
+    }, 
+    {
+      "tfidf": 0.14460748645865087, 
+      "node": "sorrow", 
+      "term": "others"
+    }, 
+    {
+      "tfidf": 0.14460748645865087, 
+      "node": "sorrow", 
+      "term": "deep"
+    }, 
+    {
+      "tfidf": 0.0936128300170965, 
+      "node": "sorrow", 
+      "term": "wrong"
+    }, 
+    {
+      "tfidf": 0.0936128300170965, 
+      "node": "sorrow", 
+      "term": "done"
+    }, 
+    {
+      "tfidf": 0.0936128300170965, 
+      "node": "sorrow", 
+      "term": "disappointment"
+    }, 
+    {
+      "tfidf": 0.08418340889830198, 
+      "node": "sorrow", 
+      "term": "sin"
+    }, 
+    {
+      "tfidf": 0.08418340889830198, 
+      "node": "sorrow", 
+      "term": "regret"
+    }, 
+    {
+      "tfidf": 0.08418340889830198, 
+      "node": "sorrow", 
+      "term": "misdeed"
+    }, 
+    {
+      "tfidf": 0.08418340889830198, 
+      "node": "sorrow", 
+      "term": "damnation"
+    }, 
+    {
+      "tfidf": 0.08418340889830198, 
+      "node": "sorrow", 
+      "term": "associate"
+    }, 
+    {
+      "tfidf": 0.08418340889830198, 
+      "node": "sorrow", 
+      "term": "arise"
+    }, 
+    {
+      "tfidf": 0.0774931281436094, 
+      "node": "sorrow", 
+      "term": "responsible"
+    }, 
+    {
+      "tfidf": 0.0774931281436094, 
+      "node": "sorrow", 
+      "term": "past"
+    }, 
+    {
+      "tfidf": 0.0774931281436094, 
+      "node": "sorrow", 
+      "term": "offense"
+    }, 
+    {
+      "tfidf": 0.0774931281436094, 
+      "node": "sorrow", 
+      "term": "conduct"
+    }, 
+    {
+      "tfidf": 0.07230374322932544, 
+      "node": "sorrow", 
+      "term": "unworthy"
+    }, 
+    {
+      "tfidf": 0.07230374322932544, 
+      "node": "sorrow", 
+      "term": "took"
+    }, 
+    {
+      "tfidf": 0.07230374322932544, 
+      "node": "sorrow", 
+      "term": "survive"
+    }, 
+    {
+      "tfidf": 0.07230374322932544, 
+      "node": "sorrow", 
+      "term": "save"
+    }, 
+    {
+      "tfidf": 0.07230374322932544, 
+      "node": "sorrow", 
+      "term": "relative"
+    }, 
+    {
+      "tfidf": 0.07230374322932544, 
+      "node": "sorrow", 
+      "term": "perish"
+    }, 
+    {
+      "tfidf": 0.07230374322932544, 
+      "node": "sorrow", 
+      "term": "not"
+    }, 
+    {
+      "tfidf": 0.07230374322932544, 
+      "node": "sorrow", 
+      "term": "many"
+    }, 
+    {
+      "tfidf": 0.07230374322932544, 
+      "node": "sorrow", 
+      "term": "guilt"
+    }, 
+    {
+      "tfidf": 0.07230374322932544, 
+      "node": "sorrow", 
+      "term": "enough"
+    }, 
+    {
+      "tfidf": 0.07230374322932544, 
+      "node": "sorrow", 
+      "term": "die"
+    }, 
+    {
+      "tfidf": 0.07230374322932544, 
+      "node": "sorrow", 
+      "term": "derives"
+    }, 
+    {
+      "tfidf": 0.07230374322932544, 
+      "node": "sorrow", 
+      "term": "catastrophe"
+    }, 
+    {
+      "tfidf": 0.0644788074939484, 
+      "node": "sorrow", 
+      "term": "usually"
+    }, 
+    {
+      "tfidf": 0.0644788074939484, 
+      "node": "sorrow", 
+      "term": "often"
+    }, 
+    {
+      "tfidf": 0.0644788074939484, 
+      "node": "sorrow", 
+      "term": "life"
+    }, 
+    {
+      "tfidf": 0.06137342627012229, 
+      "node": "sorrow", 
+      "term": "sorrow"
+    }, 
+    {
+      "tfidf": 0.06137342627012229, 
+      "node": "sorrow", 
+      "term": "experience"
+    }, 
+    {
+      "tfidf": 0.05618404135583834, 
+      "node": "sorrow", 
+      "term": "sadness"
+    }, 
+    {
+      "tfidf": 0.05396752554643544, 
+      "node": "sorrow", 
+      "term": "cause"
+    }, 
+    {
+      "tfidf": 0.050082546833338557, 
+      "node": "sorrow", 
+      "term": "fear"
+    }, 
+    {
+      "tfidf": 0.035824303277840676, 
+      "node": "sorrow", 
+      "term": "feel"
+    }, 
+    {
+      "tfidf": 0.9049716456567463, 
+      "node": "despondency", 
+      "term": "hopeless"
+    }, 
+    {
+      "tfidf": 0.9049716456567463, 
+      "node": "despondency", 
+      "term": "downcast"
+    }, 
+    {
+      "tfidf": 0.9049716456567463, 
+      "node": "despondency", 
+      "term": "dishearten"
+    }, 
+    {
+      "tfidf": 0.38511126023678727, 
+      "node": "despondency", 
+      "term": "feel"
+    }, 
+    {
+      "tfidf": 1.8099432913134925, 
+      "node": "helplessness", 
+      "term": "unable"
+    }, 
+    {
+      "tfidf": 1.8099432913134925, 
+      "node": "helplessness", 
+      "term": "manage"
+    }, 
+    {
+      "tfidf": 0.9049716456567463, 
+      "node": "demoralization", 
+      "term": "undermining"
+    }, 
+    {
+      "tfidf": 0.9049716456567463, 
+      "node": "demoralization", 
+      "term": "morale"
+    }, 
+    {
+      "tfidf": 0.833051127543801, 
+      "node": "demoralization", 
+      "term": "depression"
+    }, 
+    {
+      "tfidf": 0.7316848505167599, 
+      "node": "demoralization", 
+      "term": "result"
+    }, 
+    {
+      "tfidf": 1.2066288608756617, 
+      "node": "dysphoria", 
+      "term": "discontent"
+    }, 
+    {
+      "tfidf": 1.2066288608756617, 
+      "node": "dysphoria", 
+      "term": "abnormal"
+    }, 
+    {
+      "tfidf": 1.1107348367250678, 
+      "node": "dysphoria", 
+      "term": "depression"
+    }, 
+    {
+      "tfidf": 1.1107348367250678, 
+      "node": "weight", 
+      "term": "oppressive"
+    }, 
+    {
+      "tfidf": 1.1107348367250678, 
+      "node": "weight", 
+      "term": "heavy"
+    }, 
+    {
+      "tfidf": 1.1107348367250678, 
+      "node": "weight", 
+      "term": "force"
+    }, 
+    {
+      "tfidf": 0.9049716456567463, 
+      "node": "oppression", 
+      "term": "oppress"
+    }, 
+    {
+      "tfidf": 0.833051127543801, 
+      "node": "oppression", 
+      "term": "oppressive"
+    }, 
+    {
+      "tfidf": 0.833051127543801, 
+      "node": "oppression", 
+      "term": "heavy"
+    }, 
+    {
+      "tfidf": 0.833051127543801, 
+      "node": "oppression", 
+      "term": "force"
+    }, 
+    {
+      "tfidf": 0.3332204510175204, 
+      "node": "depression", 
+      "term": "depression"
+    }, 
+    {
+      "tfidf": 0.2012675845367575, 
+      "node": "depression", 
+      "term": "sad"
+    }, 
+    {
+      "tfidf": 0.2012675845367575, 
+      "node": "depression", 
+      "term": "inadequacy"
+    }, 
+    {
+      "tfidf": 0.2012675845367575, 
+      "node": "depression", 
+      "term": "gloom"
+    }, 
+    {
+      "tfidf": 0.18099432913134927, 
+      "node": "depression", 
+      "term": "undermining"
+    }, 
+    {
+      "tfidf": 0.18099432913134927, 
+      "node": "depression", 
+      "term": "unable"
+    }, 
+    {
+      "tfidf": 0.18099432913134927, 
+      "node": "depression", 
+      "term": "oppress"
+    }, 
+    {
+      "tfidf": 0.18099432913134927, 
+      "node": "depression", 
+      "term": "morale"
+    }, 
+    {
+      "tfidf": 0.18099432913134927, 
+      "node": "depression", 
+      "term": "manage"
+    }, 
+    {
+      "tfidf": 0.18099432913134927, 
+      "node": "depression", 
+      "term": "hopeless"
+    }, 
+    {
+      "tfidf": 0.18099432913134927, 
+      "node": "depression", 
+      "term": "downcast"
+    }, 
+    {
+      "tfidf": 0.18099432913134927, 
+      "node": "depression", 
+      "term": "dishearten"
+    }, 
+    {
+      "tfidf": 0.18099432913134927, 
+      "node": "depression", 
+      "term": "discontent"
+    }, 
+    {
+      "tfidf": 0.18099432913134927, 
+      "node": "depression", 
+      "term": "abnormal"
+    }, 
+    {
+      "tfidf": 0.1666102255087602, 
+      "node": "depression", 
+      "term": "oppressive"
+    }, 
+    {
+      "tfidf": 0.1666102255087602, 
+      "node": "depression", 
+      "term": "heavy"
+    }, 
+    {
+      "tfidf": 0.1666102255087602, 
+      "node": "depression", 
+      "term": "force"
+    }, 
+    {
+      "tfidf": 0.14633697010335198, 
+      "node": "depression", 
+      "term": "result"
+    }, 
+    {
+      "tfidf": 0.07702225204735746, 
+      "node": "depression", 
+      "term": "feel"
+    }, 
+    {
+      "tfidf": 0.7239773165253971, 
+      "node": "self-pity", 
+      "term": "suffering"
+    }, 
+    {
+      "tfidf": 0.7239773165253971, 
+      "node": "self-pity", 
+      "term": "self-indulgent"
+    }, 
+    {
+      "tfidf": 0.7239773165253971, 
+      "node": "self-pity", 
+      "term": "own"
+    }, 
+    {
+      "tfidf": 0.5545177444479562, 
+      "node": "self-pity", 
+      "term": "often"
+    }, 
+    {
+      "tfidf": 0.5278114659230517, 
+      "node": "self-pity", 
+      "term": "sorrow"
+    }, 
+    {
+      "tfidf": 1.2066288608756617, 
+      "node": "broken_heart", 
+      "term": "devastate"
+    }, 
+    {
+      "tfidf": 1.2066288608756617, 
+      "node": "broken_heart", 
+      "term": "despair"
+    }, 
+    {
+      "tfidf": 0.8796857765384194, 
+      "node": "broken_heart", 
+      "term": "sorrow"
+    }, 
+    {
+      "tfidf": 1.1107348367250678, 
+      "node": "dolor", 
+      "term": "poetry"
+    }, 
+    {
+      "tfidf": 1.1107348367250678, 
+      "node": "dolor", 
+      "term": "painful"
+    }, 
+    {
+      "tfidf": 1.0363536529536646, 
+      "node": "dolor", 
+      "term": "grief"
+    }, 
+    {
+      "tfidf": 0.36198865826269855, 
+      "node": "grief", 
+      "term": "love"
+    }, 
+    {
+      "tfidf": 0.36198865826269855, 
+      "node": "grief", 
+      "term": "loss"
+    }, 
+    {
+      "tfidf": 0.36198865826269855, 
+      "node": "grief", 
+      "term": "especially"
+    }, 
+    {
+      "tfidf": 0.36198865826269855, 
+      "node": "grief", 
+      "term": "death"
+    }, 
+    {
+      "tfidf": 0.3332204510175204, 
+      "node": "grief", 
+      "term": "poetry"
+    }, 
+    {
+      "tfidf": 0.3332204510175204, 
+      "node": "grief", 
+      "term": "painful"
+    }, 
+    {
+      "tfidf": 0.3109060958860994, 
+      "node": "grief", 
+      "term": "grief"
+    }, 
+    {
+      "tfidf": 0.26390573296152586, 
+      "node": "grief", 
+      "term": "sorrow"
+    }, 
+    {
+      "tfidf": 0.2320603598496724, 
+      "node": "grief", 
+      "term": "cause"
+    }, 
+    {
+      "tfidf": 0.182812711339893, 
+      "node": "grief", 
+      "term": "intense"
+    }, 
+    {
+      "tfidf": 1.666102255087602, 
+      "node": "plaintiveness", 
+      "term": "sorrowfulness"
+    }, 
+    {
+      "tfidf": 1.554530479430497, 
+      "node": "plaintiveness", 
+      "term": "express"
+    }, 
+    {
+      "tfidf": 1.666102255087602, 
+      "node": "woe", 
+      "term": "mournfulness"
+    }, 
+    {
+      "tfidf": 0.9140635566994649, 
+      "node": "woe", 
+      "term": "intense"
+    }, 
+    {
+      "tfidf": 0.6033144304378308, 
+      "node": "mournfulness", 
+      "term": "gloomy"
+    }, 
+    {
+      "tfidf": 0.5553674183625339, 
+      "node": "mournfulness", 
+      "term": "sorrowfulness"
+    }, 
+    {
+      "tfidf": 0.5553674183625339, 
+      "node": "mournfulness", 
+      "term": "mournfulness"
+    }, 
+    {
+      "tfidf": 0.5181768264768323, 
+      "node": "mournfulness", 
+      "term": "express"
+    }, 
+    {
+      "tfidf": 0.4398428882692097, 
+      "node": "mournfulness", 
+      "term": "sorrow"
+    }, 
+    {
+      "tfidf": 0.304687852233155, 
+      "node": "mournfulness", 
+      "term": "intense"
+    }, 
+    {
+      "tfidf": 0.3640079075331391, 
+      "node": "sorrow", 
+      "term": "sorrow"
+    }, 
+    {
+      "tfidf": 0.24964735052599896, 
+      "node": "sorrow", 
+      "term": "loss"
+    }, 
+    {
+      "tfidf": 0.13880523071500517, 
+      "node": "sorrow", 
+      "term": "bereavement"
+    }, 
+    {
+      "tfidf": 0.12607773195854688, 
+      "node": "sorrow", 
+      "term": "intense"
+    }, 
+    {
+      "tfidf": 0.12482367526299948, 
+      "node": "sorrow", 
+      "term": "suffering"
+    }, 
+    {
+      "tfidf": 0.12482367526299948, 
+      "node": "sorrow", 
+      "term": "self-indulgent"
+    }, 
+    {
+      "tfidf": 0.12482367526299948, 
+      "node": "sorrow", 
+      "term": "own"
+    }, 
+    {
+      "tfidf": 0.12482367526299948, 
+      "node": "sorrow", 
+      "term": "love"
+    }, 
+    {
+      "tfidf": 0.12482367526299948, 
+      "node": "sorrow", 
+      "term": "gloomy"
+    }, 
+    {
+      "tfidf": 0.12482367526299948, 
+      "node": "sorrow", 
+      "term": "especially"
+    }, 
+    {
+      "tfidf": 0.12482367526299948, 
+      "node": "sorrow", 
+      "term": "devastate"
+    }, 
+    {
+      "tfidf": 0.12482367526299948, 
+      "node": "sorrow", 
+      "term": "despair"
+    }, 
+    {
+      "tfidf": 0.12482367526299948, 
+      "node": "sorrow", 
+      "term": "death"
+    }, 
+    {
+      "tfidf": 0.12482367526299948, 
+      "node": "sorrow", 
+      "term": "associate"
+    }, 
+    {
+      "tfidf": 0.11490360379914495, 
+      "node": "sorrow", 
+      "term": "sorrowfulness"
+    }, 
+    {
+      "tfidf": 0.11490360379914495, 
+      "node": "sorrow", 
+      "term": "poetry"
+    }, 
+    {
+      "tfidf": 0.11490360379914495, 
+      "node": "sorrow", 
+      "term": "painful"
+    }, 
+    {
+      "tfidf": 0.11490360379914495, 
+      "node": "sorrow", 
+      "term": "mournfulness"
+    }, 
+    {
+      "tfidf": 0.10720899858141358, 
+      "node": "sorrow", 
+      "term": "grief"
+    }, 
+    {
+      "tfidf": 0.10720899858141358, 
+      "node": "sorrow", 
+      "term": "express"
+    }, 
+    {
+      "tfidf": 0.09560650766344073, 
+      "node": "sorrow", 
+      "term": "often"
+    }, 
+    {
+      "tfidf": 0.08694049289513361, 
+      "node": "sorrow", 
+      "term": "great"
+    }, 
+    {
+      "tfidf": 0.08330737166555341, 
+      "node": "sorrow", 
+      "term": "sadness"
+    }, 
+    {
+      "tfidf": 0.08002081374126634, 
+      "node": "sorrow", 
+      "term": "cause"
+    }, 
+    {
+      "tfidf": 1.0063379226837874, 
+      "node": "dolefulness", 
+      "term": "affliction"
+    }, 
+    {
+      "tfidf": 0.7772652397152485, 
+      "node": "dolefulness", 
+      "term": "grief"
+    }, 
+    {
+      "tfidf": 0.6039784445752622, 
+      "node": "dolefulness", 
+      "term": "sadness"
+    }, 
+    {
+      "tfidf": 0.580150899624181, 
+      "node": "dolefulness", 
+      "term": "cause"
+    }, 
+    {
+      "tfidf": 1.0063379226837874, 
+      "node": "forlornness", 
+      "term": "forsake"
+    }, 
+    {
+      "tfidf": 1.0063379226837874, 
+      "node": "forlornness", 
+      "term": "abandon"
+    }, 
+    {
+      "tfidf": 0.7316848505167599, 
+      "node": "forlornness", 
+      "term": "result"
+    }, 
+    {
+      "tfidf": 0.6039784445752622, 
+      "node": "forlornness", 
+      "term": "sadness"
+    }, 
+    {
+      "tfidf": 1.3417838969117164, 
+      "node": "weepiness", 
+      "term": "weeping"
+    }, 
+    {
+      "tfidf": 1.0363536529536646, 
+      "node": "weepiness", 
+      "term": "express"
+    }, 
+    {
+      "tfidf": 0.8053045927670162, 
+      "node": "weepiness", 
+      "term": "sadness"
+    }, 
+    {
+      "tfidf": 1.8099432913134925, 
+      "node": "heavyheartedness", 
+      "term": "dispirit"
+    }, 
+    {
+      "tfidf": 1.3862943611198906, 
+      "node": "heavyheartedness", 
+      "term": "melancholy"
+    }, 
+    {
+      "tfidf": 0.9049716456567463, 
+      "node": "pensiveness", 
+      "term": "problem"
+    }, 
+    {
+      "tfidf": 0.9049716456567463, 
+      "node": "pensiveness", 
+      "term": "persistent"
+    }, 
+    {
+      "tfidf": 0.9049716456567463, 
+      "node": "pensiveness", 
+      "term": "morbid"
+    }, 
+    {
+      "tfidf": 0.9049716456567463, 
+      "node": "pensiveness", 
+      "term": "meditation"
+    }, 
+    {
+      "tfidf": 0.9049716456567463, 
+      "node": "world-weariness", 
+      "term": "world"
+    }, 
+    {
+      "tfidf": 0.9049716456567463, 
+      "node": "world-weariness", 
+      "term": "think"
+    }, 
+    {
+      "tfidf": 0.7316848505167599, 
+      "node": "world-weariness", 
+      "term": "evil"
+    }, 
+    {
+      "tfidf": 0.6039784445752622, 
+      "node": "world-weariness", 
+      "term": "sadness"
+    }, 
+    {
+      "tfidf": 1.3862943611198906, 
+      "node": "gloom", 
+      "term": "melancholy"
+    }, 
+    {
+      "tfidf": 1.3862943611198906, 
+      "node": "gloom", 
+      "term": "apprehension"
+    }, 
+    {
+      "tfidf": 0.39608410317711157, 
+      "node": "melancholy", 
+      "term": "melancholy"
+    }, 
+    {
+      "tfidf": 0.34513053975729263, 
+      "node": "melancholy", 
+      "term": "sadness"
+    }, 
+    {
+      "tfidf": 0.28752512076679637, 
+      "node": "melancholy", 
+      "term": "thoughtful"
+    }, 
+    {
+      "tfidf": 0.2585633273304989, 
+      "node": "melancholy", 
+      "term": "world"
+    }, 
+    {
+      "tfidf": 0.2585633273304989, 
+      "node": "melancholy", 
+      "term": "think"
+    }, 
+    {
+      "tfidf": 0.2585633273304989, 
+      "node": "melancholy", 
+      "term": "problem"
+    }, 
+    {
+      "tfidf": 0.2585633273304989, 
+      "node": "melancholy", 
+      "term": "persistent"
+    }, 
+    {
+      "tfidf": 0.2585633273304989, 
+      "node": "melancholy", 
+      "term": "morbid"
+    }, 
+    {
+      "tfidf": 0.2585633273304989, 
+      "node": "melancholy", 
+      "term": "meditation"
+    }, 
+    {
+      "tfidf": 0.2585633273304989, 
+      "node": "melancholy", 
+      "term": "dispirit"
+    }, 
+    {
+      "tfidf": 0.20905281443335996, 
+      "node": "melancholy", 
+      "term": "evil"
+    }, 
+    {
+      "tfidf": 0.19804205158855578, 
+      "node": "melancholy", 
+      "term": "apprehension"
+    }, 
+    {
+      "tfidf": 2.012675845367575, 
+      "node": "downheartedness", 
+      "term": "low"
+    }, 
+    {
+      "tfidf": 1.666102255087602, 
+      "node": "downheartedness", 
+      "term": "spirit"
+    }, 
+    {
+      "tfidf": 2.012675845367575, 
+      "node": "misery", 
+      "term": "unhappiness"
+    }, 
+    {
+      "tfidf": 0.9140635566994649, 
+      "node": "misery", 
+      "term": "intense"
+    }, 
+    {
+      "tfidf": 2.012675845367575, 
+      "node": "heaviness", 
+      "term": "persist"
+    }, 
+    {
+      "tfidf": 1.2079568891505243, 
+      "node": "heaviness", 
+      "term": "sadness"
+    }, 
+    {
+      "tfidf": 0.16597880919625527, 
+      "node": "sadness", 
+      "term": "sadness"
+    }, 
+    {
+      "tfidf": 0.1007273789929488, 
+      "node": "sadness", 
+      "term": "sorrow"
+    }, 
+    {
+      "tfidf": 0.05526544400957229, 
+      "node": "sadness", 
+      "term": "loss"
+    }, 
+    {
+      "tfidf": 0.05526544400957229, 
+      "node": "sadness", 
+      "term": "associate"
+    }, 
+    {
+      "tfidf": 0.053143593858703604, 
+      "node": "sadness", 
+      "term": "cause"
+    }, 
+    {
+      "tfidf": 0.05087335130038479, 
+      "node": "sadness", 
+      "term": "depression"
+    }, 
+    {
+      "tfidf": 0.04746657952459533, 
+      "node": "sadness", 
+      "term": "remorse"
+    }, 
+    {
+      "tfidf": 0.04746657952459533, 
+      "node": "sadness", 
+      "term": "part"
+    }, 
+    {
+      "tfidf": 0.04746657952459533, 
+      "node": "sadness", 
+      "term": "others"
+    }, 
+    {
+      "tfidf": 0.04746657952459533, 
+      "node": "sadness", 
+      "term": "not"
+    }, 
+    {
+      "tfidf": 0.04746657952459533, 
+      "node": "sadness", 
+      "term": "grief"
+    }, 
+    {
+      "tfidf": 0.04746657952459533, 
+      "node": "sadness", 
+      "term": "express"
+    }, 
+    {
+      "tfidf": 0.04746657952459533, 
+      "node": "sadness", 
+      "term": "deep"
+    }, 
+    {
+      "tfidf": 0.04468304430636701, 
+      "node": "sadness", 
+      "term": "result"
+    }, 
+    {
+      "tfidf": 0.042329598812821084, 
+      "node": "sadness", 
+      "term": "often"
+    }, 
+    {
+      "tfidf": 0.042329598812821084, 
+      "node": "sadness", 
+      "term": "melancholy"
+    }, 
+    {
+      "tfidf": 0.041865506413715954, 
+      "node": "sadness", 
+      "term": "intense"
+    }, 
+    {
+      "tfidf": 0.04029095159717951, 
+      "node": "sadness", 
+      "term": "experience"
+    }, 
+    {
+      "tfidf": 0.030727875501795034, 
+      "node": "sadness", 
+      "term": "wrong"
+    }, 
+    {
+      "tfidf": 0.030727875501795034, 
+      "node": "sadness", 
+      "term": "well-being"
+    }, 
+    {
+      "tfidf": 0.030727875501795034, 
+      "node": "sadness", 
+      "term": "weeping"
+    }, 
+    {
+      "tfidf": 0.030727875501795034, 
+      "node": "sadness", 
+      "term": "unhappiness"
+    }, 
+    {
+      "tfidf": 0.030727875501795034, 
+      "node": "sadness", 
+      "term": "thoughtful"
+    }, 
+    {
+      "tfidf": 0.030727875501795034, 
+      "node": "sadness", 
+      "term": "sad"
+    }, 
+    {
+      "tfidf": 0.030727875501795034, 
+      "node": "sadness", 
+      "term": "pessimistic"
+    }, 
+    {
+      "tfidf": 0.030727875501795034, 
+      "node": "sadness", 
+      "term": "persist"
+    }, 
+    {
+      "tfidf": 0.030727875501795034, 
+      "node": "sadness", 
+      "term": "low"
+    }, 
+    {
+      "tfidf": 0.030727875501795034, 
+      "node": "sadness", 
+      "term": "inadequacy"
+    }, 
+    {
+      "tfidf": 0.030727875501795034, 
+      "node": "sadness", 
+      "term": "gloom"
+    }, 
+    {
+      "tfidf": 0.030727875501795034, 
+      "node": "sadness", 
+      "term": "forsake"
+    }, 
+    {
+      "tfidf": 0.030727875501795034, 
+      "node": "sadness", 
+      "term": "dreary"
+    }, 
+    {
+      "tfidf": 0.030727875501795034, 
+      "node": "sadness", 
+      "term": "done"
+    }, 
+    {
+      "tfidf": 0.030727875501795034, 
+      "node": "sadness", 
+      "term": "disappointment"
+    }, 
+    {
+      "tfidf": 0.030727875501795034, 
+      "node": "sadness", 
+      "term": "bereavement"
+    }, 
+    {
+      "tfidf": 0.030727875501795034, 
+      "node": "sadness", 
+      "term": "affliction"
+    }, 
+    {
+      "tfidf": 0.030727875501795034, 
+      "node": "sadness", 
+      "term": "abandon"
+    }, 
+    {
+      "tfidf": 0.027632722004786146, 
+      "node": "sadness", 
+      "term": "world"
+    }, 
+    {
+      "tfidf": 0.027632722004786146, 
+      "node": "sadness", 
+      "term": "undermining"
+    }, 
+    {
+      "tfidf": 0.027632722004786146, 
+      "node": "sadness", 
+      "term": "unable"
+    }, 
+    {
+      "tfidf": 0.027632722004786146, 
+      "node": "sadness", 
+      "term": "think"
+    }, 
+    {
+      "tfidf": 0.027632722004786146, 
+      "node": "sadness", 
+      "term": "suffering"
+    }, 
+    {
+      "tfidf": 0.027632722004786146, 
+      "node": "sadness", 
+      "term": "sin"
+    }, 
+    {
+      "tfidf": 0.027632722004786146, 
+      "node": "sadness", 
+      "term": "self-indulgent"
+    }, 
+    {
+      "tfidf": 0.027632722004786146, 
+      "node": "sadness", 
+      "term": "regret"
+    }, 
+    {
+      "tfidf": 0.027632722004786146, 
+      "node": "sadness", 
+      "term": "problem"
+    }, 
+    {
+      "tfidf": 0.027632722004786146, 
+      "node": "sadness", 
+      "term": "persistent"
+    }, 
+    {
+      "tfidf": 0.027632722004786146, 
+      "node": "sadness", 
+      "term": "own"
+    }, 
+    {
+      "tfidf": 0.027632722004786146, 
+      "node": "sadness", 
+      "term": "oppress"
+    }, 
+    {
+      "tfidf": 0.027632722004786146, 
+      "node": "sadness", 
+      "term": "morbid"
+    }, 
+    {
+      "tfidf": 0.027632722004786146, 
+      "node": "sadness", 
+      "term": "morale"
+    }, 
+    {
+      "tfidf": 0.027632722004786146, 
+      "node": "sadness", 
+      "term": "misdeed"
+    }, 
+    {
+      "tfidf": 0.027632722004786146, 
+      "node": "sadness", 
+      "term": "meditation"
+    }, 
+    {
+      "tfidf": 0.027632722004786146, 
+      "node": "sadness", 
+      "term": "manage"
+    }, 
+    {
+      "tfidf": 0.027632722004786146, 
+      "node": "sadness", 
+      "term": "love"
+    }, 
+    {
+      "tfidf": 0.027632722004786146, 
+      "node": "sadness", 
+      "term": "hopeless"
+    }, 
+    {
+      "tfidf": 0.027632722004786146, 
+      "node": "sadness", 
+      "term": "gloomy"
+    }, 
+    {
+      "tfidf": 0.027632722004786146, 
+      "node": "sadness", 
+      "term": "especially"
+    }, 
+    {
+      "tfidf": 0.027632722004786146, 
+      "node": "sadness", 
+      "term": "downcast"
+    }, 
+    {
+      "tfidf": 0.027632722004786146, 
+      "node": "sadness", 
+      "term": "dispirit"
+    }, 
+    {
+      "tfidf": 0.027632722004786146, 
+      "node": "sadness", 
+      "term": "dismal"
+    }, 
+    {
+      "tfidf": 0.027632722004786146, 
+      "node": "sadness", 
+      "term": "dishearten"
+    }, 
+    {
+      "tfidf": 0.027632722004786146, 
+      "node": "sadness", 
+      "term": "discontent"
+    }, 
+    {
+      "tfidf": 0.027632722004786146, 
+      "node": "sadness", 
+      "term": "devastate"
+    }, 
+    {
+      "tfidf": 0.027632722004786146, 
+      "node": "sadness", 
+      "term": "despair"
+    }, 
+    {
+      "tfidf": 0.027632722004786146, 
+      "node": "sadness", 
+      "term": "death"
+    }, 
+    {
+      "tfidf": 0.027632722004786146, 
+      "node": "sadness", 
+      "term": "damnation"
+    }, 
+    {
+      "tfidf": 0.027632722004786146, 
+      "node": "sadness", 
+      "term": "cheerlessness"
+    }, 
+    {
+      "tfidf": 0.027632722004786146, 
+      "node": "sadness", 
+      "term": "arise"
+    }, 
+    {
+      "tfidf": 0.027632722004786146, 
+      "node": "sadness", 
+      "term": "abnormal"
+    }, 
+    {
+      "tfidf": 0.025436675650192395, 
+      "node": "sadness", 
+      "term": "spirit"
+    }, 
+    {
+      "tfidf": 0.025436675650192395, 
+      "node": "sadness", 
+      "term": "sorrowfulness"
+    }, 
+    {
+      "tfidf": 0.025436675650192395, 
+      "node": "sadness", 
+      "term": "responsible"
+    }, 
+    {
+      "tfidf": 0.025436675650192395, 
+      "node": "sadness", 
+      "term": "poetry"
+    }, 
+    {
+      "tfidf": 0.025436675650192395, 
+      "node": "sadness", 
+      "term": "past"
+    }, 
+    {
+      "tfidf": 0.025436675650192395, 
+      "node": "sadness", 
+      "term": "painful"
+    }, 
+    {
+      "tfidf": 0.025436675650192395, 
+      "node": "sadness", 
+      "term": "oppressive"
+    }, 
+    {
+      "tfidf": 0.025436675650192395, 
+      "node": "sadness", 
+      "term": "offense"
+    }, 
+    {
+      "tfidf": 0.025436675650192395, 
+      "node": "sadness", 
+      "term": "mournfulness"
+    }, 
+    {
+      "tfidf": 0.025436675650192395, 
+      "node": "sadness", 
+      "term": "heavy"
+    }, 
+    {
+      "tfidf": 0.025436675650192395, 
+      "node": "sadness", 
+      "term": "force"
+    }, 
+    {
+      "tfidf": 0.025436675650192395, 
+      "node": "sadness", 
+      "term": "conduct"
+    }, 
+    {
+      "tfidf": 0.023733289762297664, 
+      "node": "sadness", 
+      "term": "unworthy"
+    }, 
+    {
+      "tfidf": 0.023733289762297664, 
+      "node": "sadness", 
+      "term": "took"
+    }, 
+    {
+      "tfidf": 0.023733289762297664, 
+      "node": "sadness", 
+      "term": "survive"
+    }, 
+    {
+      "tfidf": 0.023733289762297664, 
+      "node": "sadness", 
+      "term": "save"
+    }, 
+    {
+      "tfidf": 0.023733289762297664, 
+      "node": "sadness", 
+      "term": "relative"
+    }, 
+    {
+      "tfidf": 0.023733289762297664, 
+      "node": "sadness", 
+      "term": "perish"
+    }, 
+    {
+      "tfidf": 0.023733289762297664, 
+      "node": "sadness", 
+      "term": "many"
+    }, 
+    {
+      "tfidf": 0.023733289762297664, 
+      "node": "sadness", 
+      "term": "guilt"
+    }, 
+    {
+      "tfidf": 0.023733289762297664, 
+      "node": "sadness", 
+      "term": "enough"
+    }, 
+    {
+      "tfidf": 0.023733289762297664, 
+      "node": "sadness", 
+      "term": "die"
+    }, 
+    {
+      "tfidf": 0.023733289762297664, 
+      "node": "sadness", 
+      "term": "derives"
+    }, 
+    {
+      "tfidf": 0.023733289762297664, 
+      "node": "sadness", 
+      "term": "catastrophe"
+    }, 
+    {
+      "tfidf": 0.023518244899956475, 
+      "node": "sadness", 
+      "term": "feel"
+    }, 
+    {
+      "tfidf": 0.022341522153183507, 
+      "node": "sadness", 
+      "term": "evil"
+    }, 
+    {
+      "tfidf": 0.021164799406410542, 
+      "node": "sadness", 
+      "term": "usually"
+    }, 
+    {
+      "tfidf": 0.021164799406410542, 
+      "node": "sadness", 
+      "term": "life"
+    }, 
+    {
+      "tfidf": 0.021164799406410542, 
+      "node": "sadness", 
+      "term": "apprehension"
+    }, 
+    {
+      "tfidf": 0.019246368656174618, 
+      "node": "sadness", 
+      "term": "great"
+    }, 
+    {
+      "tfidf": 0.016439309265905023, 
+      "node": "sadness", 
+      "term": "fear"
+    }, 
+    {
+      "tfidf": 0.9049716456567463, 
+      "node": "awe", 
+      "term": "wonder"
+    }, 
+    {
+      "tfidf": 0.9049716456567463, 
+      "node": "awe", 
+      "term": "admiration"
+    }, 
+    {
+      "tfidf": 0.7772652397152485, 
+      "node": "awe", 
+      "term": "overwhelming"
+    }, 
+    {
+      "tfidf": 0.38511126023678727, 
+      "node": "awe", 
+      "term": "feel"
+    }, 
+    {
+      "tfidf": 0.5031689613418937, 
+      "node": "wonder", 
+      "term": "surprising"
+    }, 
+    {
+      "tfidf": 0.5031689613418937, 
+      "node": "wonder", 
+      "term": "strange"
+    }, 
+    {
+      "tfidf": 0.5031689613418937, 
+      "node": "wonder", 
+      "term": "arouse"
+    }, 
+    {
+      "tfidf": 0.45248582282837313, 
+      "node": "wonder", 
+      "term": "wonder"
+    }, 
+    {
+      "tfidf": 0.45248582282837313, 
+      "node": "wonder", 
+      "term": "admiration"
+    }, 
+    {
+      "tfidf": 0.38863261985762426, 
+      "node": "wonder", 
+      "term": "overwhelming"
+    }, 
+    {
+      "tfidf": 0.25130608377411057, 
+      "node": "wonder", 
+      "term": "something"
+    }, 
+    {
+      "tfidf": 0.19255563011839363, 
+      "node": "wonder", 
+      "term": "feel"
+    }, 
+    {
+      "tfidf": 0.6708919484558582, 
+      "node": "surprise", 
+      "term": "unexpected"
+    }, 
+    {
+      "tfidf": 0.6708919484558582, 
+      "node": "surprise", 
+      "term": "totally"
+    }, 
+    {
+      "tfidf": 0.6033144304378308, 
+      "node": "surprise", 
+      "term": "astonishment"
+    }, 
+    {
+      "tfidf": 0.5553674183625339, 
+      "node": "surprise", 
+      "term": "happens"
+    }, 
+    {
+      "tfidf": 0.3350747783654807, 
+      "node": "surprise", 
+      "term": "something"
+    }, 
+    {
+      "tfidf": 0.25674084015785814, 
+      "node": "surprise", 
+      "term": "feel"
+    }, 
+    {
+      "tfidf": 0.6033144304378308, 
+      "node": "daze", 
+      "term": "distress"
+    }, 
+    {
+      "tfidf": 0.6033144304378308, 
+      "node": "daze", 
+      "term": "disbelief"
+    }, 
+    {
+      "tfidf": 0.6033144304378308, 
+      "node": "daze", 
+      "term": "accidentally"
+    }, 
+    {
+      "tfidf": 0.5553674183625339, 
+      "node": "daze", 
+      "term": "happens"
+    }, 
+    {
+      "tfidf": 0.4877899003445066, 
+      "node": "daze", 
+      "term": "bad"
+    }, 
+    {
+      "tfidf": 0.3350747783654807, 
+      "node": "daze", 
+      "term": "something"
+    }, 
+    {
+      "tfidf": 0.5031689613418937, 
+      "node": "stupefaction", 
+      "term": "stupefied"
+    }, 
+    {
+      "tfidf": 0.45248582282837313, 
+      "node": "stupefaction", 
+      "term": "distress"
+    }, 
+    {
+      "tfidf": 0.45248582282837313, 
+      "node": "stupefaction", 
+      "term": "disbelief"
+    }, 
+    {
+      "tfidf": 0.45248582282837313, 
+      "node": "stupefaction", 
+      "term": "astonishment"
+    }, 
+    {
+      "tfidf": 0.45248582282837313, 
+      "node": "stupefaction", 
+      "term": "accidentally"
+    }, 
+    {
+      "tfidf": 0.4165255637719005, 
+      "node": "stupefaction", 
+      "term": "happens"
+    }, 
+    {
+      "tfidf": 0.36584242525837996, 
+      "node": "stupefaction", 
+      "term": "bad"
+    }, 
+    {
+      "tfidf": 0.25130608377411057, 
+      "node": "stupefaction", 
+      "term": "something"
+    }, 
+    {
+      "tfidf": 0.3096424377488577, 
+      "node": "astonishment", 
+      "term": "surprising"
+    }, 
+    {
+      "tfidf": 0.3092997954142899, 
+      "node": "astonishment", 
+      "term": "something"
+    }, 
+    {
+      "tfidf": 0.27845281404822964, 
+      "node": "astonishment", 
+      "term": "astonishment"
+    }, 
+    {
+      "tfidf": 0.2563234238596311, 
+      "node": "astonishment", 
+      "term": "happens"
+    }, 
+    {
+      "tfidf": 0.1814807258190421, 
+      "node": "astonishment", 
+      "term": "extremely"
+    }, 
+    {
+      "tfidf": 0.1814807258190421, 
+      "node": "astonishment", 
+      "term": "accompanies"
+    }, 
+    {
+      "tfidf": 0.15482121887442885, 
+      "node": "astonishment", 
+      "term": "unexpected"
+    }, 
+    {
+      "tfidf": 0.15482121887442885, 
+      "node": "astonishment", 
+      "term": "totally"
+    }, 
+    {
+      "tfidf": 0.15482121887442885, 
+      "node": "astonishment", 
+      "term": "stupefied"
+    }, 
+    {
+      "tfidf": 0.15482121887442885, 
+      "node": "astonishment", 
+      "term": "strange"
+    }, 
+    {
+      "tfidf": 0.15482121887442885, 
+      "node": "astonishment", 
+      "term": "arouse"
+    }, 
+    {
+      "tfidf": 0.13922640702411482, 
+      "node": "astonishment", 
+      "term": "wonder"
+    }, 
+    {
+      "tfidf": 0.13922640702411482, 
+      "node": "astonishment", 
+      "term": "distress"
+    }, 
+    {
+      "tfidf": 0.13922640702411482, 
+      "node": "astonishment", 
+      "term": "disbelief"
+    }, 
+    {
+      "tfidf": 0.13922640702411482, 
+      "node": "astonishment", 
+      "term": "admiration"
+    }, 
+    {
+      "tfidf": 0.13922640702411482, 
+      "node": "astonishment", 
+      "term": "accidentally"
+    }, 
+    {
+      "tfidf": 0.11957926764849978, 
+      "node": "astonishment", 
+      "term": "overwhelming"
+    }, 
+    {
+      "tfidf": 0.11849577238054994, 
+      "node": "astonishment", 
+      "term": "feel"
+    }, 
+    {
+      "tfidf": 0.11256690007950153, 
+      "node": "astonishment", 
+      "term": "bad"
+    }
+  ]
+}
