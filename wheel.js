@@ -41,7 +41,13 @@ var arc = d3.svg.arc()
 
 /* build visualization */
 
-d3.json("wheel_ja.json", function(error, json) {
+var lang = 'en';
+if (location.search == '?lang=ja') {
+  lang = 'ja';
+}
+var datapath = 'wheel_' + lang + '.json';
+
+d3.json(datapath, function(error, json) {
   var nodes = partition.nodes({children: json.nodes}),
     terms = aggregateTerms(json.terms);
 

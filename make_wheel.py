@@ -69,7 +69,7 @@ def make_node(name, memo):
     return node
 
 
-class Translator(object):
+class EnglishTranslator(object):
     def definition(self, synset):
         return list(tokenize(synset.definition))
 
@@ -77,7 +77,7 @@ class Translator(object):
         return synset.name.split('.')[0]
 
 
-class JapaneseTranslator(Translator):
+class JapaneseTranslator(EnglishTranslator):
     def __init__(self):
         import MeCab
         from wnja import JapaneseWordNetTranslator
@@ -126,10 +126,10 @@ class JapaneseTranslator(Translator):
             yield term
 
 
-def make_wheel(roots, lang=None):
+def make_wheel(roots, lang='en'):
     nodes = []
     memo = Memo()
-    memo.translator = Translator()
+    memo.translator = EnglishTranslator()
     if lang == 'ja':
         memo.translator = JapaneseTranslator()
     for root, color in roots:
@@ -167,4 +167,4 @@ if __name__ == '__main__':
         ('astonishment.n.01', '#a5dbff'),
     ]
     make_wheel(ekman_basics, lang='ja')
-#    make_wheel(ekman_basics)
+    make_wheel(ekman_basics)
