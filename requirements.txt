@@ -1,4 +1,5 @@
 PyYAML==3.10
+http://mecab.googlecode.com/files/mecab-python-0.994.tar.gz
 networkx==1.8.1
 nltk==2.0.4
 numpy==1.7.1
